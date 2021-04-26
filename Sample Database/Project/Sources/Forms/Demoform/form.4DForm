@@ -1,0 +1,1817 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 800,
+	"width": 1200,
+	"height": 650,
+	"menuBar": "Menüleiste Nr. 1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onActivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onUnload",
+		"onTimer",
+		"onAfterKeystroke",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"calarea": {
+					"type": "plugin",
+					"top": 5,
+					"left": 169,
+					"width": 865,
+					"height": 377,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pluginAreaKind": "_hmCal",
+					"dragging": "automatic",
+					"dropping": "automatic",
+					"method": "ObjectMethods/calarea.4dm",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDrop",
+						"onPluginArea",
+						"onDataChange",
+						"onDragOver",
+						"onPrintingDetail",
+						"onUnload",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove"
+					]
+				},
+				"tf_listbox1": {
+					"type": "listbox",
+					"top": 8,
+					"left": 1038,
+					"width": 159,
+					"height": 374,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"sortable": false,
+					"movableRows": false,
+					"dragging": "custom",
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"staticColumnCount": 1,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#DDDDDD",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"columns": [
+						{
+							"name": "tt_personen",
+							"width": 144,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#DDDDDD",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "vl_kopf1",
+								"text": "Name",
+								"stroke": "#000000",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Fußteil1",
+								"stroke": "#000000",
+								"fill": "#DDDDDD",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						}
+					]
+				},
+				"calmini": {
+					"type": "plugin",
+					"top": 5,
+					"left": 8,
+					"width": 151,
+					"height": 307,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pluginAreaKind": "_hmCalMini",
+					"method": "ObjectMethods/calmini.4dm",
+					"events": [
+						"onClick",
+						"onPluginArea"
+					]
+				},
+				"vl_splitter1": {
+					"type": "splitter",
+					"top": 3,
+					"left": 162,
+					"width": 1,
+					"height": 382,
+					"sizingY": "grow",
+					"events": [
+						"onClick"
+					]
+				},
+				"tt_register": {
+					"type": "tab",
+					"top": 386,
+					"left": 10,
+					"width": 1180,
+					"height": 254,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayText",
+					"class": "Default",
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"tl_mini_months": {
+					"type": "dropdown",
+					"top": 347,
+					"left": 10,
+					"width": 142,
+					"height": 21,
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tl_mini_months.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"vl_left": {
+					"type": "button",
+					"top": 320,
+					"left": 11,
+					"width": 36,
+					"height": 20,
+					"sizingY": "move",
+					"text": "<",
+					"focusable": false,
+					"method": "ObjectMethods/vl_left.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_right": {
+					"type": "button",
+					"top": 320,
+					"left": 57,
+					"width": 36,
+					"height": 20,
+					"sizingY": "move",
+					"text": ">",
+					"focusable": false,
+					"method": "ObjectMethods/vl_right.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"vl_left2": {
+					"type": "button",
+					"top": 568,
+					"left": 443,
+					"width": 36,
+					"height": 20,
+					"sizingY": "move",
+					"text": "<",
+					"focusable": false,
+					"method": "ObjectMethods/vl_left2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_right2": {
+					"type": "button",
+					"top": 568,
+					"left": 489,
+					"width": 36,
+					"height": 20,
+					"sizingY": "move",
+					"text": ">",
+					"focusable": false,
+					"method": "ObjectMethods/vl_right2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_dayview": {
+					"type": "radio",
+					"top": 420,
+					"left": 100,
+					"width": 131,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Day",
+					"class": "Default",
+					"focusable": false,
+					"radioGroup": "Gruppe5",
+					"method": "ObjectMethods/vl_dayview.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_weekview": {
+					"type": "radio",
+					"top": 459,
+					"left": 100,
+					"width": 61,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Week",
+					"class": "Default",
+					"focusable": false,
+					"radioGroup": "Gruppe5",
+					"method": "ObjectMethods/vl_weekview.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_monthview": {
+					"type": "radio",
+					"top": 499,
+					"left": 100,
+					"width": 71,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Month",
+					"class": "Default",
+					"focusable": false,
+					"radioGroup": "Gruppe5",
+					"method": "ObjectMethods/vl_monthview.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_dayuserview": {
+					"type": "radio",
+					"top": 439,
+					"left": 100,
+					"width": 91,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Day-User",
+					"class": "Default",
+					"focusable": false,
+					"radioGroup": "Gruppe5",
+					"method": "ObjectMethods/vl_dayuserview.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_weekuser": {
+					"type": "radio",
+					"top": 480,
+					"left": 100,
+					"width": 111,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Week-User",
+					"class": "Default",
+					"focusable": false,
+					"radioGroup": "Gruppe5",
+					"method": "ObjectMethods/vl_weekuser.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_resourcesview": {
+					"type": "radio",
+					"top": 519,
+					"left": 100,
+					"width": 151,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Resources view",
+					"class": "Default",
+					"focusable": false,
+					"radioGroup": "Gruppe5",
+					"method": "ObjectMethods/vl_resourcesview.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_year_view": {
+					"type": "radio",
+					"top": 539,
+					"left": 100,
+					"width": 151,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Year view",
+					"class": "Default",
+					"focusable": false,
+					"radioGroup": "Gruppe5",
+					"method": "ObjectMethods/vl_year_view.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_userdayview": {
+					"type": "radio",
+					"top": 559,
+					"left": 100,
+					"width": 141,
+					"height": 19,
+					"sizingY": "move",
+					"text": "User-Day-View",
+					"class": "Default",
+					"focusable": false,
+					"radioGroup": "Gruppe5",
+					"method": "ObjectMethods/vl_userdayview.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 421,
+					"left": 24,
+					"width": 45,
+					"height": 15,
+					"sizingY": "move",
+					"text": "View:"
+				},
+				"vl_areatoclip": {
+					"type": "button",
+					"top": 603,
+					"left": 24,
+					"width": 183,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Area to clipboard",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_areatoclip.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"vl_onelineheader": {
+					"type": "checkbox",
+					"top": 419,
+					"left": 532,
+					"width": 218,
+					"height": 19,
+					"sizingY": "move",
+					"text": "One Line Header",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_onelineheader.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_startonmonday": {
+					"type": "checkbox",
+					"top": 439,
+					"left": 532,
+					"width": 218,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Start On Monday",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_startonmonday.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_viewmultidayarea": {
+					"type": "checkbox",
+					"top": 459,
+					"left": 532,
+					"width": 218,
+					"height": 19,
+					"sizingY": "move",
+					"text": "View Multi Day Area",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_viewmultidayarea.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_allowdragnew": {
+					"type": "checkbox",
+					"top": 479,
+					"left": 532,
+					"width": 268,
+					"height": 19,
+					"sizingY": "move",
+					"text": "Allow drag new appointment",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_allowdragnew.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_overlapping": {
+					"type": "checkbox",
+					"top": 497,
+					"left": 533,
+					"width": 171,
+					"height": 23,
+					"sizingY": "move",
+					"text": "overlapping",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_overlapping.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_ScrollAutoHide": {
+					"type": "checkbox",
+					"top": 517,
+					"left": 533,
+					"width": 221,
+					"height": 23,
+					"sizingY": "move",
+					"text": "Auto hide scrollbars",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_ScrollAutoHide.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_displaytime": {
+					"type": "checkbox",
+					"top": 537,
+					"left": 533,
+					"width": 221,
+					"height": 23,
+					"sizingY": "move",
+					"text": "Display Time",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_displaytime.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_FreezeView_V": {
+					"type": "checkbox",
+					"top": 557,
+					"left": 533,
+					"width": 221,
+					"height": 23,
+					"sizingY": "move",
+					"text": "Freeze view vertically",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_FreezeView_V.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_ShowMonthHeader": {
+					"type": "checkbox",
+					"top": 577,
+					"left": 533,
+					"width": 221,
+					"height": 21,
+					"sizingY": "move",
+					"text": "Show Month Header",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_ShowMonthHeader.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_IndicateOutsideApp": {
+					"type": "checkbox",
+					"top": 597,
+					"left": 533,
+					"width": 241,
+					"height": 21,
+					"sizingY": "move",
+					"text": "Indicate outside appoint.",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_IndicateOutsideApp.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tl_hoursperpage": {
+					"type": "dropdown",
+					"top": 419,
+					"left": 179,
+					"width": 85,
+					"height": 21,
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tl_hoursperpage.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 422,
+					"left": 28,
+					"width": 135,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Hours per page:"
+				},
+				"tt_effect": {
+					"type": "dropdown",
+					"top": 419,
+					"left": 343,
+					"width": 130,
+					"height": 21,
+					"sizingY": "move",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tt_effect.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 422,
+					"left": 284,
+					"width": 57,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Effect:"
+				},
+				"tl_daysperweek": {
+					"type": "dropdown",
+					"top": 444,
+					"left": 179,
+					"width": 85,
+					"height": 21,
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tl_daysperweek.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 447,
+					"left": 28,
+					"width": 135,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Days per view:"
+				},
+				"tl_visibledays": {
+					"type": "dropdown",
+					"top": 469,
+					"left": 179,
+					"width": 85,
+					"height": 21,
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tl_visibledays.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 472,
+					"left": 28,
+					"width": 125,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Visible days:"
+				},
+				"tl_visibleweeks": {
+					"type": "dropdown",
+					"top": 494,
+					"left": 179,
+					"width": 85,
+					"height": 21,
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tl_visibleweeks.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 497,
+					"left": 28,
+					"width": 125,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Visible weeks:"
+				},
+				"tl_visibleweekdays": {
+					"type": "dropdown",
+					"top": 519,
+					"left": 179,
+					"width": 85,
+					"height": 21,
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tl_visibleweekdays.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 522,
+					"left": 28,
+					"width": 125,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Visible weekdays:"
+				},
+				"tl_daysperuser": {
+					"type": "dropdown",
+					"top": 447,
+					"left": 388,
+					"width": 85,
+					"height": 21,
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tl_daysperuser.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text13": {
+					"type": "text",
+					"top": 450,
+					"left": 284,
+					"width": 105,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Days per user:"
+				},
+				"vl_rounding": {
+					"type": "checkbox",
+					"top": 588,
+					"left": 34,
+					"width": 91,
+					"height": 20,
+					"sizingY": "move",
+					"text": "rounding",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_rounding.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_roundingruler": {
+					"type": "ruler",
+					"top": 588,
+					"left": 145,
+					"width": 273,
+					"height": 44,
+					"sizingY": "move",
+					"showGraduations": true,
+					"labelsPlacement": "right",
+					"max": 20,
+					"graduationStep": 5,
+					"numberFormat": "### ##0",
+					"class": "Default",
+					"method": "ObjectMethods/vl_roundingruler.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text6": {
+					"type": "text",
+					"top": 480,
+					"left": 284,
+					"width": 133,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Background color:"
+				},
+				"background_color": {
+					"type": "rectangle",
+					"top": 480,
+					"left": 419,
+					"width": 64,
+					"height": 17,
+					"sizingY": "move",
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"vl_background_color": {
+					"type": "button",
+					"top": 480,
+					"left": 419,
+					"width": 64,
+					"height": 17,
+					"sizingY": "move",
+					"display": false,
+					"method": "ObjectMethods/vl_background_color.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 537,
+					"left": 784,
+					"width": 117,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Description"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 617,
+					"left": 784,
+					"width": 117,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Line spacing:"
+				},
+				"vz_linespacing_tab": {
+					"type": "stepper",
+					"top": 614,
+					"left": 988,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_linespacing_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_linespacing": {
+					"type": "input",
+					"top": 617,
+					"left": 902,
+					"width": 82,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_linespacing.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bild1": {
+					"type": "picture",
+					"top": 589,
+					"left": 950,
+					"width": 10,
+					"height": 9,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/pfeil_links_pipe.png"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 537,
+					"left": 904,
+					"width": 117,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Margins:"
+				},
+				"vz_margin_left_tab": {
+					"type": "stepper",
+					"top": 579,
+					"left": 1034,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_margin_left_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_margin_left": {
+					"type": "input",
+					"top": 582,
+					"left": 968,
+					"width": 62,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_margin_left.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bild2": {
+					"type": "picture",
+					"top": 545,
+					"left": 1067,
+					"width": 9,
+					"height": 9,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/pfeil_oben_pipe.png"
+				},
+				"vz_margin_top_tab": {
+					"type": "stepper",
+					"top": 555,
+					"left": 1105,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_margin_top_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_margin_top": {
+					"type": "input",
+					"top": 558,
+					"left": 1039,
+					"width": 62,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_margin_top.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vz_margin_right_tab": {
+					"type": "stepper",
+					"top": 579,
+					"left": 1154,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_margin_right_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_margin_right": {
+					"type": "input",
+					"top": 582,
+					"left": 1088,
+					"width": 62,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_margin_right.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bild3": {
+					"type": "picture",
+					"top": 585,
+					"left": 1170,
+					"width": 10,
+					"height": 9,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/pfeil_rechts_pipe.png"
+				},
+				"vz_margin_bottom_tab": {
+					"type": "stepper",
+					"top": 605,
+					"left": 1105,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_margin_bottom_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_margin_bottom": {
+					"type": "input",
+					"top": 608,
+					"left": 1039,
+					"width": 62,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_margin_bottom.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bild4": {
+					"type": "picture",
+					"top": 632,
+					"left": 1067,
+					"width": 9,
+					"height": 10,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/pfeil_unten_pipe.png"
+				},
+				"Linie": {
+					"type": "line",
+					"top": 526,
+					"left": 776,
+					"width": 408,
+					"sizingY": "move"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 412,
+					"left": 784,
+					"width": 117,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Header"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 492,
+					"left": 784,
+					"width": 117,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Line spacing:"
+				},
+				"vz_linespacing_header_tab": {
+					"type": "stepper",
+					"top": 489,
+					"left": 988,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_linespacing_header_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_linespacing_header": {
+					"type": "input",
+					"top": 492,
+					"left": 902,
+					"width": 82,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_linespacing_header.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bild5": {
+					"type": "picture",
+					"top": 464,
+					"left": 950,
+					"width": 10,
+					"height": 9,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/pfeil_links_pipe.png"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 412,
+					"left": 904,
+					"width": 117,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Margins:"
+				},
+				"vz_header_margin_left_tab": {
+					"type": "stepper",
+					"top": 454,
+					"left": 1034,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_header_margin_left_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_header_margin_left": {
+					"type": "input",
+					"top": 457,
+					"left": 968,
+					"width": 62,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_header_margin_left.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bild6": {
+					"type": "picture",
+					"top": 420,
+					"left": 1067,
+					"width": 9,
+					"height": 9,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/pfeil_oben_pipe.png"
+				},
+				"vz_header_margin_top_tab": {
+					"type": "stepper",
+					"top": 430,
+					"left": 1105,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_header_margin_top_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_header_margin_top": {
+					"type": "input",
+					"top": 433,
+					"left": 1039,
+					"width": 62,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_header_margin_top.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vz_margin_header_right_tab": {
+					"type": "stepper",
+					"top": 454,
+					"left": 1154,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_margin_header_right_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_margin_header_right": {
+					"type": "input",
+					"top": 457,
+					"left": 1088,
+					"width": 62,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_margin_header_right.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bild7": {
+					"type": "picture",
+					"top": 460,
+					"left": 1170,
+					"width": 10,
+					"height": 9,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/pfeil_rechts_pipe.png"
+				},
+				"vz_margin_header_bottom_tab": {
+					"type": "stepper",
+					"top": 480,
+					"left": 1105,
+					"width": 14,
+					"height": 22,
+					"sizingY": "move",
+					"continuousExecution": false,
+					"max": 100,
+					"method": "ObjectMethods/vz_margin_header_bottom_tab.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vz_margin_header_bottom": {
+					"type": "input",
+					"top": 483,
+					"left": 1039,
+					"width": 62,
+					"height": 17,
+					"sizingY": "move",
+					"dataSourceTypeHint": "number",
+					"contextMenu": "none",
+					"numberFormat": "##0.0",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vz_margin_header_bottom.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Bild8": {
+					"type": "picture",
+					"top": 507,
+					"left": 1067,
+					"width": 9,
+					"height": 10,
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/pfeil_unten_pipe.png"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 500,
+					"left": 284,
+					"width": 133,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Foreground color:"
+				},
+				"foreground_color": {
+					"type": "rectangle",
+					"top": 500,
+					"left": 419,
+					"width": 64,
+					"height": 17,
+					"sizingY": "move",
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"vl_foreground_color": {
+					"type": "button",
+					"top": 500,
+					"left": 419,
+					"width": 64,
+					"height": 17,
+					"sizingY": "move",
+					"display": false,
+					"method": "ObjectMethods/vl_foreground_color.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text20": {
+					"type": "text",
+					"top": 520,
+					"left": 284,
+					"width": 133,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Header text color:"
+				},
+				"headertext_color": {
+					"type": "rectangle",
+					"top": 520,
+					"left": 419,
+					"width": 64,
+					"height": 17,
+					"sizingY": "move",
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"vl_headertext_color": {
+					"type": "button",
+					"top": 520,
+					"left": 419,
+					"width": 64,
+					"height": 17,
+					"sizingY": "move",
+					"display": false,
+					"method": "ObjectMethods/vl_headertext_color.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text21": {
+					"type": "text",
+					"top": 540,
+					"left": 284,
+					"width": 133,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Descr. text color:"
+				},
+				"descrtext_color": {
+					"type": "rectangle",
+					"top": 540,
+					"left": 419,
+					"width": 64,
+					"height": 17,
+					"sizingY": "move",
+					"fill": "automatic",
+					"stroke": "transparent"
+				},
+				"vl_descrtext_color": {
+					"type": "button",
+					"top": 540,
+					"left": 419,
+					"width": 64,
+					"height": 17,
+					"sizingY": "move",
+					"display": false,
+					"method": "ObjectMethods/vl_descrtext_color.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"vl_onelineheader",
+				"vl_startonmonday",
+				"vl_viewmultidayarea",
+				"vl_allowdragnew",
+				"vl_overlapping",
+				"vl_ScrollAutoHide",
+				"vl_displaytime",
+				"vl_FreezeView_V",
+				"vl_ShowMonthHeader",
+				"vl_IndicateOutsideApp",
+				"tl_hoursperpage",
+				"tt_effect",
+				"tl_daysperweek",
+				"tl_visibledays",
+				"tl_visibleweeks",
+				"tl_visibleweekdays",
+				"tl_daysperuser",
+				"vl_rounding",
+				"vl_roundingruler",
+				"vz_linespacing_tab",
+				"vz_linespacing",
+				"vz_margin_left_tab",
+				"vz_margin_left",
+				"vz_margin_top_tab",
+				"vz_margin_top",
+				"vz_margin_right_tab",
+				"vz_margin_right",
+				"vz_margin_bottom_tab",
+				"vz_margin_bottom",
+				"vz_linespacing_header_tab",
+				"vz_linespacing_header",
+				"vz_header_margin_left_tab",
+				"vz_header_margin_left",
+				"vz_header_margin_top_tab",
+				"vz_header_margin_top",
+				"vz_margin_header_right_tab",
+				"vz_margin_header_right",
+				"vz_margin_header_bottom_tab",
+				"vz_margin_header_bottom"
+			]
+		},
+		{
+			"objects": {
+				"tt_stylesheet_name": {
+					"type": "dropdown",
+					"top": 420,
+					"left": 27,
+					"width": 214,
+					"height": 20,
+					"sizingY": "move",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tt_stylesheet_name.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 482,
+					"left": 27,
+					"width": 63,
+					"height": 15,
+					"sizingY": "move",
+					"text": "Fontsize:"
+				},
+				"tl_fontsize": {
+					"type": "combo",
+					"top": 479,
+					"left": 90,
+					"width": 99,
+					"height": 22,
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"class": "Default",
+					"method": "ObjectMethods/tl_fontsize.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"tt_fonts": {
+					"type": "dropdown",
+					"top": 450,
+					"left": 90,
+					"width": 154,
+					"height": 20,
+					"sizingY": "move",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tt_fonts.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 452,
+					"left": 27,
+					"width": 63,
+					"height": 15,
+					"sizingY": "move",
+					"text": "Font:"
+				},
+				"vl_bold": {
+					"type": "checkbox",
+					"top": 511,
+					"left": 27,
+					"width": 59,
+					"height": 18,
+					"sizingY": "move",
+					"text": "Bold",
+					"class": "Default",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/vl_bold.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_italic": {
+					"type": "checkbox",
+					"top": 511,
+					"left": 87,
+					"width": 59,
+					"height": 18,
+					"sizingY": "move",
+					"text": "Italic",
+					"class": "Default",
+					"fontStyle": "italic",
+					"focusable": false,
+					"method": "ObjectMethods/vl_italic.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_underline": {
+					"type": "checkbox",
+					"top": 511,
+					"left": 147,
+					"width": 95,
+					"height": 18,
+					"sizingY": "move",
+					"text": "Underline",
+					"class": "Default",
+					"textDecoration": "underline",
+					"focusable": false,
+					"method": "ObjectMethods/vl_underline.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tt_stylesheet_fontname": {
+					"type": "dropdown",
+					"top": 660,
+					"left": 11,
+					"width": 214,
+					"height": 20,
+					"visibility": "hidden",
+					"focusable": false,
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"tg_stylesheet_fontsize": {
+					"type": "dropdown",
+					"top": 688,
+					"left": 11,
+					"width": 214,
+					"height": 20,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"tg_stylesheet_fontstyle": {
+					"type": "dropdown",
+					"top": 715,
+					"left": 11,
+					"width": 214,
+					"height": 20,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"vl_strikethrough": {
+					"type": "checkbox",
+					"top": 511,
+					"left": 247,
+					"width": 145,
+					"height": 18,
+					"sizingY": "move",
+					"text": "Strikethrough",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_strikethrough.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tg_stylesheet_type": {
+					"type": "dropdown",
+					"top": 745,
+					"left": 11,
+					"width": 214,
+					"height": 20,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				}
+			},
+			"entryOrder": [
+				"tt_stylesheet_name",
+				"tl_fontsize",
+				"tt_fonts",
+				"vl_bold",
+				"vl_italic",
+				"vl_underline",
+				"tt_stylesheet_fontname",
+				"tg_stylesheet_fontsize",
+				"tg_stylesheet_fontstyle",
+				"vl_strikethrough",
+				"tg_stylesheet_type"
+			]
+		},
+		{
+			"objects": {
+				"Text5": {
+					"type": "text",
+					"top": 424,
+					"left": 28,
+					"width": 63,
+					"height": 15,
+					"sizingY": "move",
+					"text": "Click:"
+				},
+				"vt_clickinfo": {
+					"type": "input",
+					"top": 423,
+					"left": 89,
+					"width": 326,
+					"height": 15,
+					"sizingY": "move",
+					"focusable": false,
+					"fill": "#DDDDDD",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange",
+						"onAfterKeystroke"
+					]
+				},
+				"tf_listbox2": {
+					"type": "listbox",
+					"top": 449,
+					"left": 28,
+					"width": 212,
+					"height": 181,
+					"sizingY": "move",
+					"resizingMode": "legacy",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"staticColumnCount": 1,
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#DDDDDD",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"columns": [
+						{
+							"name": "tl_selectedAppointments",
+							"dataSourceTypeHint": "number",
+							"width": 197,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#DDDDDD",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "vl_kopf2",
+								"text": "Selected Appointments (IDs)",
+								"stroke": "#000000",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Fußteil2",
+								"stroke": "#000000",
+								"fill": "#DDDDDD",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"vl_offscreen": {
+					"type": "button",
+					"top": 610,
+					"left": 24,
+					"width": 183,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Offscreen Area to clip",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_offscreen.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tt_picttypes": {
+					"type": "dropdown",
+					"top": 436,
+					"left": 31,
+					"width": 194,
+					"height": 20,
+					"sizingY": "move",
+					"focusable": false,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"vl_save": {
+					"type": "button",
+					"top": 436,
+					"left": 465,
+					"width": 89,
+					"height": 20,
+					"sizingY": "move",
+					"text": "Save",
+					"class": "Default",
+					"focusable": false,
+					"method": "ObjectMethods/vl_save.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 438,
+					"left": 240,
+					"width": 97,
+					"height": 16,
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Picturesize:"
+				},
+				"tt_picturesize": {
+					"type": "dropdown",
+					"top": 436,
+					"left": 322,
+					"width": 129,
+					"height": 20,
+					"sizingY": "move",
+					"focusable": false,
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"tg_picturesize_width": {
+					"type": "dropdown",
+					"top": 466,
+					"left": 322,
+					"width": 129,
+					"height": 20,
+					"visibility": "hidden",
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"tg_picturesize_height": {
+					"type": "dropdown",
+					"top": 496,
+					"left": 322,
+					"width": 129,
+					"height": 20,
+					"visibility": "hidden",
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"class": "Default",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Gruppe5": [
+				"vl_dayview",
+				"vl_weekview",
+				"vl_monthview",
+				"vl_dayuserview",
+				"vl_weekuser",
+				"vl_resourcesview",
+				"vl_year_view",
+				"vl_userdayview"
+			]
+		},
+		"activeView": "Ebene 1",
+		"defaultView": "Ebene 1",
+		"views": {
+			"Ebene 1": {},
+			"Ebene 2": {},
+			"Ebene 3": {},
+			"Ebene 4": {},
+			"Ebene 5": {},
+			"Ebene 6": {},
+			"Ebene 7": {},
+			"Ebene 8": {},
+			"Ebene 9": {}
+		}
+	}
+}

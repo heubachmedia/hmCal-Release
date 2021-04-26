@@ -1,0 +1,21 @@
+{
+	"Standard Projekt-Methode": {
+		"methods": [
+			"openTestdialog"
+		]
+	},
+	"Standard-Formular": {
+		"forms": [
+			"Demoform"
+		]
+	},
+	"Standard-Ordner": {
+		"groups": [
+			"Standard Projekt-Methode",
+			"Standard-Formular",
+			"Standard-Tabelle"
+		]
+	},
+	"Standard-Tabelle": {},
+	"trash": {}
+}

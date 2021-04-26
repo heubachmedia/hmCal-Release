@@ -1,0 +1,1116 @@
+{
+    "name":"hmCal",
+    "id":15119,
+    "commands":[
+                {
+                "theme":"hmCal Areas",
+                "syntax":"_hmCal"
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_REDRAW AREA(&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Register(&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_Add Appointment(&L;&L;&T;&T;&L;&D;&L;&D;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_Delete Appointment(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET START DATE(&L;&D)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Start Date(&L):D",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Obsolete commands",
+                "syntax":"hmCal_SET VISIBLE HOURS(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Obsolete commands",
+                "syntax":"hmCal_Get Visible Hours(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_INSTALL CALLBACK(&L;&T)"
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Get Callback(&L):T",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_UPDATE APPOINTMENTS(&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET VIEW(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get View(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Special days",
+                "syntax":"hmCal_HIGHLIGHT DAY(&L;&D)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Special days",
+                "syntax":"hmCal_Get Highlighted Day(&L):D",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET START TIME(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Start Time(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET WORKING HOURS(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET WORKING HOURS(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_START ON MONDAY(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET DATE 4D FORMAT(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET MONTH NAMES(&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET WEEKDAY NAMES(&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET UNIT(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Unit(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Last Event(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SHOW TIPS(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_New Offscreen Area(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_DELETE OFFSCREEN AREA(&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_Add User(&L;&L;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_Delete User(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_DELETE ALL USERS(&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_SET USERS PER PAGE(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET VISIBLE TIMERANGE(&L;&D;&L;&D;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Search",
+                "syntax":"hmCal_SET SEARCHMODE(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Search",
+                "syntax":"hmCal_SET TO SEARCH(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET SELECTION MODE(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Selection Mode(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_SELECT APPOINTMENTS(&L;&Y;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_GET SELECTED APPOINTMENTS(&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_DRAG AND DROP PROPERTIES(&L;&Z;&L;&L)"
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET ROUNDING(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET ROUNDING VALUE(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET LAST DESTINATION(&L;&L;&D;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_INDEX2RGB(&L;&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Get Area Property(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_SET AREA PROPERTY(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_16To8BitRGB(&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Stylesheets",
+                "syntax":"hmCal_Add Stylesheet(&L;&L;&T;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Stylesheets",
+                "syntax":"hmCal_Delete Stylesheet(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Stylesheets",
+                "syntax":"hmCal_DELETE ALL STYLESHEETS(&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Stylesheets",
+                "syntax":"hmCal_Apply Stylesheet(&L;&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Get Version:L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Stylesheets",
+                "syntax":"hmCal_Set Stylesheet(&L;&L;&T;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET TIME 4D FORMAT(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET DAY RANGE(&L;&8)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"_hmCalMini"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_START ON MONDAY(&L;&L)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_SET DATE(&L;&D)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_Get Date(&L):D"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_SET MONTH NAMES(&L;&Y)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_SET WEEKDAY NAMES(&L;&Y)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_SET MONTHS(&L;&L)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_Get Months(&L):L"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_SET START DATE(&L;&D)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_Get Start Date(&L):D"
+                },
+                {
+                "theme":"hmCal Special days",
+                "syntax":"hmCal_Add Special Day(&L;&D;&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Special days",
+                "syntax":"hmCal_DELETE ALL SPECIAL DAYS(&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_ADD SPECIAL DAY(&L;&D;&L;&L;&L)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_DELETE ALL SPECIAL D(&L)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_DISPLAY WEEK NUMBER(&L;&L)"
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Day Range(&L):8",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_Count Appointments(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_Date2Seconds(&D;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_SECONDS2DATE(&L;&D;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_SET TIP(&L;&D;&T)"
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_Scroll To User(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_GetStringWidth(&T;&T;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_SET DRAG TIMERANGE(&L;&D;&L;&D;&L)"
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_SET EVENT STATE(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Get Event State(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET VISIBLE DAYS(&L;&8)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Visible Days(&L):8",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET VISIBLE WEEKS(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Visible Weeks(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET VISIBLE WEEKDAYS(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Visible Weekdays(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_SET DAYS PER USER(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_Import Appointments(&L;&O;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET VISIBLE FRAME(&L;&D;&L;&D;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_GET CALENDAR LIST(&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_OPTIMIZED FORMATS(&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_Find Appointment By ID(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET MONTH HEADER(&L;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Relations",
+                "syntax":"hmCal_Add Relation(&L;&L;&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Relations",
+                "syntax":"hmCal_Delete Relation(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Scroll To Date(&L;&D):L"
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET WORKING HOURS EX(&L;&Y;&Y;&Y;&Y;&Y;&Y;&Y;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_SET CALENDAR PROPERTY(&L;&L;&L;&L;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_SET ORIENTATION(&L;&L)"
+                },
+                {
+                "theme":"hmCal Icons",
+                "syntax":"hmCal_Add Icon File(&L;&L;&T):L"
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_Add Calendar(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_CLEAR CALENDAR(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_Get App Property(&L;&L;&L;&8;&T;&D):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_Set App Property(&L;&L;&L;&8;&T;&D):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET SHADOW(&L;&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_Delete Calendar(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_SET RECURRENCE TYPE(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_SET RECURRENCE COUNT(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_SET RECURRENCE INTERVAL(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_SET RECURRENCE DATE(&L;&L;&D)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_SET RECURRENCE LIST(&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_SET EXDATE LIST(&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_Get Recurrence Number(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_Get Recurrence Type(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_Get Recurrence Interval(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_Get Recurrence Date(&L;&L):D",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_Get Recurrence Count(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_GET APPOINTMENT LIST(&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_GET RECURRENCE LIST(&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_GET EXDATE LIST(&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_GET RECURRENCE INFO(&L;&L;&L;&D;&L;&D;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_GET OLD TIMERANGE(&L;&D;&L;&D;&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Icons",
+                "syntax":"hmCal_Delete Icon(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Add Column(&L;&L;&L;&T;&T;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Delete Column(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Set Column Cell Value(&L;&L;&L;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Get Column Cell Value(&L;&L;&L;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Delete Column Values(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Set Column Cell Icon(&L;&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Get Column Cell Icon(&L;&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Relations",
+                "syntax":"hmCal_Get Selected Relation(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Relations",
+                "syntax":"hmCal_Select Relation(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Users",
+                "syntax":"hmCal_Get User Height(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Relations",
+                "syntax":"hmCal_Set Relation Type(&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Relations",
+                "syntax":"hmCal_Get Relation Type(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Set Column Property(&L;&L;&L;&L;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET COLOR(&L;&L;&L;&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET COLOR(&L;&L;&L;&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_FLUSH(&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_GET TIMEZONE LIST(&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Set Timezone(&L;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Get Timezone(&L;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_Export Appointments(&L;&L;&O):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_GET POINT INFO(&L;&L;&L;&D;&L;&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Get Column Property(&L;&L;&L;&L;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Set Column Cell Values(&L;&L;&Y;&Y):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_Get Column Cell Values(&L;&L;&Y;&Y):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Set Scroll Range(&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET SCROLL RANGE(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_GET MEMORY INFO(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET COLOR EX(&L;&L;&L;&L;&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET COLOR EX(&L;&L;&L;&L;&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET OBJECT RECT(&L;&L;&L;&L;&8;&8;&8;&8)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET FORMAT(&L;&L;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Format(&L;&L):T",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_Convert Timezone(&T;&T;&D;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_GET SYSTEM TIMEZONE(&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Search",
+                "syntax":"hmCal_DELETE FROM SEARCH(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Recurrence Appointments",
+                "syntax":"hmCal_GET SELECTED OCCURRENCES(&L;&Y;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET VISIBLE SECONDS(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Get Visible Seconds(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal System processes",
+                "syntax":"hmCal_Get Current Process:T"
+                },
+                {
+                "theme":"hmCal System processes",
+                "syntax":"hmCal_Get Process Name(&T):T"
+                },
+                {
+                "theme":"hmCal System processes",
+                "syntax":"hmCal_Get Front Process:T"
+                },
+                {
+                "theme":"hmCal System processes",
+                "syntax":"hmCal_GET PROCESS LIST(&Y)"
+                },
+                {
+                "theme":"hmCal System processes",
+                "syntax":"hmCal_DISPLAY NOTIFICATION(&T)"
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_SET APP USER LIST(&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_GET APP USER LIST(&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Special days",
+                "syntax":"hmCal_DELETE SPECIAL DAY(&L;&D)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_SET TIMEOUT LIST(&L;&Y;&Y;&Y;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_GET TIMEOUT LIST(&L;&Y;&Y;&Y;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal System processes",
+                "syntax":"hmCal_SET FRONT PROCESS(&T)"
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_TEXT2ARRAY(&T;&Y;&L;&T;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+				"syntax":"hmCal_GET AREA LIST(&Y;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Is Area Valid(&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Area To Picture(&L;&L;&L;&L):P"
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_SET USER LINE HEIGHT(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal System processes",
+                "syntax":"hmCal_GET WINDOW LIST(&Y;&Y;&Y)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_SET STYLE(&L;&L)"
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_SET APP GRADIENT(&L;&L;&Y;&Y;&Y;&Y;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Icons",
+                "syntax":"hmCal_Add Icon(&L;&L;&P):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Styled Text",
+                "syntax":"hmCal_SET STYLED TEXT(&L;&L;&L;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Styled Text",
+                "syntax":"hmCal_DELETE ALL RUNS(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Styled Text",
+                "syntax":"hmCal_Count Runs(&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Styled Text",
+                "syntax":"hmCal_CREATE STYLED TEXT RUN(&L;&L;&L;&L;&L;&T;&L;&L;&L;&L;&L;&8)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_FILTER EVENT(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Special days",
+                "syntax":"hmCal_SET SPECIAL DAY NAME(&L;&D;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Special days",
+                "syntax":"hmCal_Get Special Day Name(&L;&D):T",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Utilities",
+                "syntax":"hmCal_Get Resources Folder:T",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_Export Appointments Text(&L;&L;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Users",
+                "syntax":"hmCal_SET USER TIMEZONE(&L;&L;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Users",
+                "syntax":"hmCal_Get User Timezone(&L;&L):T",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Users",
+                "syntax":"hmCal_Get User Timezone Off(&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Users",
+                "syntax":"hmCal_SET USER ICON(&L;&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_GET LAST DEST(&L;&L;&D;&L;&L)"
+                },
+                {
+                "theme":"hmCal Stylesheets",
+                "syntax":"hmCal_Apply Stylesheet Ex(&L;&L;&L;&L;&L):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_Set User Property(&L;&L;&L;&8;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal User",
+                "syntax":"hmCal_Get User Property(&L;&L;&L;&8;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET WORKING HOURS PROP(&L;&L;&L;&D;&8;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET WORKING HOUR LIST(&L;&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET WORKING HOURS PROP(&L;&L;&L;&D;&8;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET COLOR NEW(&L;&L;&L;&L;&L;&L;&L;&8)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Users",
+                "syntax":"hmCal_GET USER LIST(&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_Add Group(&L;&Y):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_GET COLOR NEW(&L;&L;&L;&L;&L;&L;&L;&8)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_DELETE GROUP(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Appointments",
+                "syntax":"hmCal_SET GROUP PROPERTY(&L;&L;&L;&8)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_SET TIMEINDICATOR TEXT(&L;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_Add Stylesheet(&L;&L;&T;&L;&L):L"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_Delete Stylesheet(&L;&L):L"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_DELETE ALL STYLESHEETS(&L)"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_Apply Stylesheet(&L;&L;&L;&D):L"
+                },
+                {
+                "theme":"hmCal Mini-Calendar",
+                "syntax":"hmCal_mini_Set Stylesheet(&L;&L;&T;&L;&L):L"
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_Create Working Hours(&L;&L;&L;&D;&L;&L;&L;&L;&8;&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_DELETE WORKING HOURS(&L;&L)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar",
+                "syntax":"hmCal_GET CALENDAR PROPERTY(&L;&L;&L;&L;&T)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Columns",
+                "syntax":"hmCal_GET COLUMN LIST(&L;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Areas",
+                "syntax":"hmCal_Get Point Info Object(&L;&8;&8):J",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET LINEDASH(&L;&L;&8;&Y)",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmCal Calendar Settings",
+                "syntax":"hmCal_SET LINE WIDTH(&L;&L;&8)",
+				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Utilities",
+				"syntax":"hmCal_Get Current Thread ID:L",
+				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Recurrence Appointments",
+				"syntax":"hmCal_SELECT APPOINTMENT OCCURR(&L;&L;&L)",
+				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Appointments",
+				"syntax":"hmCal_Get Appointment Timeouts(&L;&L):L",
+				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Recurrence Appointments",
+				"syntax":"hmCal_GET VISIBLE RECURRENCES(&L;&L;&X;&X;&X;&X;&X;&X)",
+				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Calendar Settings",
+				"syntax":"hmCal_Get Scroll Positions(&L):J",
+				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Calendar Settings",
+				"syntax":"hmCal_SET SCROLL POSITIONS(&L;&J)",
+				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Columns",
+				"syntax":"hmCal_Set Column Cell Tip(&L;&L;&L;&T):L",
+				"threadSafe": true
+				}
+                ]
+
+}

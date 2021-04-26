@@ -1,0 +1,66 @@
+{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Menüleiste Nr. 1",
+			"items": [
+				{
+					"link": 1102
+				},
+				{
+					"link": 3115
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 1102,
+			"title": ":79,1",
+			"items": [
+				{
+					"title": "Test",
+					"method": "openTestdialog"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":131,30",
+					"shortcutAccel": true,
+					"shortcutKey": "Q",
+					"action": "quit"
+				}
+			]
+		},
+		{
+			"link": 3115,
+			"title": "Edit",
+			"items": [
+				{
+					"title": "Paste",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": "Copy",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"action": "copy"
+				},
+				{
+					"title": "Alles auswählen",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "Zwischenablage",
+					"action": "showClipboard"
+				}
+			]
+		}
+	]
+}

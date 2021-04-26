@@ -1,0 +1,117 @@
+{
+	"messages": [
+		{
+			"message": "Compatibility setting 'Save methods as Unicode' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Prevent drop of data not coming from 4D' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Reload form for each record during PRINT SELECTION' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Use object notation to access object properties' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Use date type instead of ISO date format in objects' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Allow Nested Transactions' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Do not use new context referencing mode' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Web automatic variable assignment' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Web remove / on unknown URLs' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting for Remote 'Web automatic variable assignment' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting for Remote 'Web remove / on unknown URLs' switched off.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Execute QUERY BY FORMULA On Server' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Execute ORDER BY FORMULA On Server' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'QUERY BY FORMULA Uses SQL Joins' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'CPU priority' restored to factory settings.",
+			"severity": "warning"
+		},
+		{
+			"message": "Exporting picture id:2052, name:OSX Abbrechen, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:OSX Abbrechen.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2053, name:OSX Letzter Datensatz, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:OSX Letzter Datensatz.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2055, name:OSX Vorheriger Datensatz, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:OSX Vorheriger Datensatz.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2056, name:OSX Nächster Datensatz, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:OSX Nächster Datensatz.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2063, name:OSX Erster Datensatz, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:OSX Erster Datensatz.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2066, name:OSX Datensatz Löschen, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:OSX Datensatz Löschen.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:2071, name:OSX OK, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:OSX OK.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10004, name:Menu EDIT Undo, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:Menu EDIT Undo.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10005, name:Menu EDIT Cut, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:Menu EDIT Cut.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10006, name:Menu EDIT Copy, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:Menu EDIT Copy.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10007, name:Menu EDIT Paste, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:Menu EDIT Paste.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10038, name:Menu EDIT Select All, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:Menu EDIT Select All.pict",
+			"severity": "info"
+		},
+		{
+			"message": "Exporting picture id:10055, name:Menu EDIT Clear, types:.pict to Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmCal-v19:Sample Database 4D v19:Resources:Images:library:Menu EDIT Clear.pict",
+			"severity": "info"
+		}
+	],
+	"success": true
+}

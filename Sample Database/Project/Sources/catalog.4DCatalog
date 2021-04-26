@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Sample Database 4D v19" uuid="D164708450A641928A89C1A7DDA3332E" collation_locale="de">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Appointments" uuid="076F169A041B47D4877CB36E6DC400CE" id="8">
+		<field name="ID" uuid="5DA48EAA482344A69B9EAD3BBA5A2C37" type="4" unique="true" never_null="true" id="1"/>
+		<field name="Subject" uuid="EC76684AE3DB4CE48B1C3F083ABA14C9" type="10" limiting_length="80" never_null="true" id="2"/>
+		<field name="Body" uuid="B5A853C041794A67A61B8FE29A6433F1" type="10" never_null="true" id="3"/>
+		<field name="Date1" uuid="0D28BD9B0F954A38B24D182BD9397FA1" type="8" never_null="true" id="4"/>
+		<field name="Time1" uuid="9B5BC2AB16154CE4835978E5C0EAC7F8" type="9" never_null="true" id="5"/>
+		<field name="Date2" uuid="7B9253BA61F24855846230ECA79C7743" type="8" never_null="true" id="6"/>
+		<field name="Time2" uuid="C8E07B34B4D04C43A9CA01B1241B29C7" type="9" never_null="true" id="7"/>
+		<field name="Tiptext" uuid="754B129B05E9414DA19456C6B0E94B4F" type="10" never_null="true" id="8"/>
+		<field name="AllDay" uuid="819F48F8249E430893EBEF1059B0809A" type="1" never_null="true" id="9"/>
+		<field name="UserID" uuid="DEE16169F9414C56AD0C00D065CB4E39" type="4" never_null="true" id="10"/>
+		<field name="Reminder" uuid="4079D99C977240A69FC375F6F30F7569" type="1" never_null="true" id="11"/>
+		<field name="Lock" uuid="31111577D39449B7A56CA90849D72FF8" type="1" never_null="true" id="12"/>
+		<primary_key field_name="ID" field_uuid="5DA48EAA482344A69B9EAD3BBA5A2C37"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="18">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="0" top="0" width="131" height="437"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Users" uuid="58D86C6D2E6E4E88ACF05CA76E05493A" id="9">
+		<field name="ID" uuid="92C2AD9F543F4CA2AB6BFE134FE04C96" type="4" unique="true" never_null="true" id="1"/>
+		<field name="Name" uuid="6E090ECEC445473D9D216DA74877D526" type="10" limiting_length="80" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="92C2AD9F543F4CA2AB6BFE134FE04C96"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="11">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="152.55859375" top="0" width="134.640625" height="275.515625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" uuid="1D6EE0A5A2F744DABB65A28AC2032951" type="7">
+		<field_ref uuid="7B9253BA61F24855846230ECA79C7743" name="Date2">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1DC7E876AAC84B41BF872FC700C822F3" type="7">
+		<field_ref uuid="31111577D39449B7A56CA90849D72FF8" name="Lock">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3E7E34498B4C4F06B372E07B409D559A" type="7">
+		<field_ref uuid="C8E07B34B4D04C43A9CA01B1241B29C7" name="Time2">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="4DF9243569C84DF7B0C301FF1D9A2DBA" type="7">
+		<field_ref uuid="B5A853C041794A67A61B8FE29A6433F1" name="Body">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="5599C4B055C644B18F9D03CC76770F67" type="7">
+		<field_ref uuid="EC76684AE3DB4CE48B1C3F083ABA14C9" name="Subject">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7C094D61E76D4C68833929E9118318A1" type="7">
+		<field_ref uuid="4079D99C977240A69FC375F6F30F7569" name="Reminder">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="ACC00172A4F14D6E91D89D28B59F4E0B" type="7">
+		<field_ref uuid="9B5BC2AB16154CE4835978E5C0EAC7F8" name="Time1">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="D142681953834840B25A2C992F3D5536" type="7">
+		<field_ref uuid="DEE16169F9414C56AD0C00D065CB4E39" name="UserID">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E8C1922861E640E5B8BD0869F902CBF3" type="7">
+		<field_ref uuid="5DA48EAA482344A69B9EAD3BBA5A2C37" name="ID">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="EA6DDCAF2F384D71B87F84BDA1EF4609" type="7">
+		<field_ref uuid="819F48F8249E430893EBEF1059B0809A" name="AllDay">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F8AA0DA84B6147378F334A713D91AA50" type="7">
+		<field_ref uuid="0D28BD9B0F954A38B24D182BD9397FA1" name="Date1">
+			<table_ref uuid="076F169A041B47D4877CB36E6DC400CE" name="Appointments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="FCC1FD8CBEBC4A0983A0EE552F92C453" type="7">
+		<field_ref uuid="6E090ECEC445473D9D216DA74877D526" name="Name">
+			<table_ref uuid="58D86C6D2E6E4E88ACF05CA76E05493A" name="Users"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="FFAFA6FAD2704537A3714AD7C8C7A17A" type="7">
+		<field_ref uuid="92C2AD9F543F4CA2AB6BFE134FE04C96" name="ID">
+			<table_ref uuid="58D86C6D2E6E4E88ACF05CA76E05493A" name="Users"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":DEMO.4DD" __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<temp_folder folder_selector="data"/>
+	</base_extra>
+</base>

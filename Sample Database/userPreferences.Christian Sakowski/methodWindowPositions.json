@@ -1,0 +1,554 @@
+{
+	"Sources/Methods/openTestdialog.4dm": {
+		"left": 863,
+		"top": 105,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Methods/ErrorHandler.4dm": {
+		"left": 635,
+		"top": 169,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/offscreen.4dm": {
+		"left": 963,
+		"top": 469,
+		"width": 981,
+		"height": 788
+	},
+	"Sources/Methods/CallBack.4dm": {
+		"left": 1042,
+		"top": 210,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Methods/StyleSheet_Apply.4dm": {
+		"left": 217,
+		"top": 533,
+		"width": 936,
+		"height": 477
+	},
+	"Sources/Methods/StyleSheet_Select.4dm": {
+		"left": 1022,
+		"top": 401,
+		"width": 1032,
+		"height": 696
+	},
+	"Sources/Methods/Stylesheet_Set.4dm": {
+		"left": 218,
+		"top": 507,
+		"width": 1418,
+		"height": 701
+	},
+	"Sources/Methods/GetVersion.4dm": {
+		"left": 1128,
+		"top": 254,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/InitAppointments.4dm": {
+		"left": 832,
+		"top": 465,
+		"width": 1156,
+		"height": 796
+	},
+	"Sources/Methods/InitUsers.4dm": {
+		"left": 542,
+		"top": 66,
+		"width": 542,
+		"height": 434
+	},
+	"Sources/Methods/GetVersionString.4dm": {
+		"left": 733,
+		"top": 687,
+		"width": 828,
+		"height": 486
+	},
+	"Sources/Methods/DLG_Close.4dm": {
+		"left": 1128,
+		"top": 254,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/Compiler_Methods.4dm": {
+		"left": 1128,
+		"top": 254,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/OBJECT_GetLongint.4dm": {
+		"left": 431,
+		"top": 507,
+		"width": 789,
+		"height": 502
+	},
+	"Sources/Methods/OBJECT_InitArray.4dm": {
+		"left": 459,
+		"top": 139,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/ARR_Resize.4dm": {
+		"left": 809,
+		"top": 537,
+		"width": 789,
+		"height": 502
+	},
+	"Sources/Methods/OBJECT_SetLongint.4dm": {
+		"left": 376,
+		"top": 309,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/OBJECT_GetPointer.4dm": {
+		"left": 662,
+		"top": 44,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Methods/OBJECT_SetText.4dm": {
+		"left": 975,
+		"top": 44,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/SetOptions.4dm": {
+		"left": 243,
+		"top": 44,
+		"width": 810,
+		"height": 471
+	},
+	"Sources/Methods/ARR_Copy.4dm": {
+		"left": 477,
+		"top": 151,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/saveImage.4dm": {
+		"left": 684,
+		"top": 54,
+		"width": 1179,
+		"height": 1085
+	},
+	"Sources/Methods/OBJECT_SetReal.4dm": {
+		"left": 571,
+		"top": 169,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Methods/OBJECT_GetReal.4dm": {
+		"left": 396,
+		"top": 384,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Methods/Appointments_ApplyProperties.4dm": {
+		"left": 1486,
+		"top": 463,
+		"width": 985,
+		"height": 528
+	},
+	"Sources/DatabaseMethods/onStartup.4dm": {
+		"left": 704,
+		"top": 247,
+		"width": 635,
+		"height": 617
+	},
+	"Sources/DatabaseMethods/onServerStartup.4dm": {
+		"left": 635,
+		"top": 169,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/method.4dm": {
+		"left": 130,
+		"top": 45,
+		"width": 1332,
+		"height": 968
+	},
+	"Sources/Forms/Demoform/ObjectMethods/calarea.4dm": {
+		"left": 403,
+		"top": 432,
+		"width": 747,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/calmini.4dm": {
+		"left": 403,
+		"top": 432,
+		"width": 747,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tl_mini_months.4dm": {
+		"left": 561,
+		"top": 430,
+		"width": 694,
+		"height": 444
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_left.4dm": {
+		"left": 476,
+		"top": 44,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_right.4dm": {
+		"left": 476,
+		"top": 44,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_left2.4dm": {
+		"left": 352,
+		"top": 351,
+		"width": 981,
+		"height": 788
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_right2.4dm": {
+		"left": 777,
+		"top": 439,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_dayview.4dm": {
+		"left": 641,
+		"top": 245,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_weekview.4dm": {
+		"left": 641,
+		"top": 245,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_monthview.4dm": {
+		"left": 1045,
+		"top": 44,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_dayuserview.4dm": {
+		"left": 641,
+		"top": 245,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_weekuser.4dm": {
+		"left": 1045,
+		"top": 44,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_resourcesview.4dm": {
+		"left": 790,
+		"top": 45,
+		"width": 828,
+		"height": 951
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_year_view.4dm": {
+		"left": 769,
+		"top": 129,
+		"width": 970,
+		"height": 836
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_userdayview.4dm": {
+		"left": 1211,
+		"top": 45,
+		"width": 1092,
+		"height": 1187
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_areatoclip.4dm": {
+		"left": 761,
+		"top": 332,
+		"width": 655,
+		"height": 506
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_onelineheader.4dm": {
+		"left": 581,
+		"top": 174,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_startonmonday.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_viewmultidayarea.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_allowdragnew.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_overlapping.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_ScrollAutoHide.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_displaytime.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_FreezeView_V.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_ShowMonthHeader.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_IndicateOutsideApp.4dm": {
+		"left": 437,
+		"top": 449,
+		"width": 705,
+		"height": 566
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tl_hoursperpage.4dm": {
+		"left": 651,
+		"top": 353,
+		"width": 917,
+		"height": 646
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tt_effect.4dm": {
+		"left": 464,
+		"top": 462,
+		"width": 779,
+		"height": 656
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tl_daysperweek.4dm": {
+		"left": 618,
+		"top": 492,
+		"width": 715,
+		"height": 433
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tl_visibledays.4dm": {
+		"left": 1302,
+		"top": 275,
+		"width": 783,
+		"height": 579
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tl_visibleweeks.4dm": {
+		"left": 546,
+		"top": 609,
+		"width": 656,
+		"height": 396
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tl_visibleweekdays.4dm": {
+		"left": 533,
+		"top": 431,
+		"width": 673,
+		"height": 485
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tl_daysperuser.4dm": {
+		"left": 487,
+		"top": 479,
+		"width": 751,
+		"height": 517
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_background_color.4dm": {
+		"left": 1157,
+		"top": 670,
+		"width": 1092,
+		"height": 733
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_linespacing_tab.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_linespacing.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_left_tab.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_left.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_top_tab.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_top.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_right_tab.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_right.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_bottom_tab.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_bottom.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_linespacing_header_tab.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_linespacing_header.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_header_margin_left_tab.4dm": {
+		"left": 1486,
+		"top": 463,
+		"width": 985,
+		"height": 528
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_header_margin_left.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_header_margin_top_tab.4dm": {
+		"left": 1063,
+		"top": 920,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_header_right_tab.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_header_right.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_header_bottom_tab.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vz_margin_header_bottom.4dm": {
+		"left": 1079,
+		"top": 836,
+		"width": 916,
+		"height": 442
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_foreground_color.4dm": {
+		"left": 1315,
+		"top": 603,
+		"width": 916,
+		"height": 697
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_headertext_color.4dm": {
+		"left": 1157,
+		"top": 670,
+		"width": 1092,
+		"height": 733
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_descrtext_color.4dm": {
+		"left": 1163,
+		"top": 645,
+		"width": 1092,
+		"height": 733
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tt_stylesheet_name.4dm": {
+		"left": 487,
+		"top": 53,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tl_fontsize.4dm": {
+		"left": 487,
+		"top": 53,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Forms/Demoform/ObjectMethods/tt_fonts.4dm": {
+		"left": 487,
+		"top": 53,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_bold.4dm": {
+		"left": 487,
+		"top": 53,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_italic.4dm": {
+		"left": 487,
+		"top": 53,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_underline.4dm": {
+		"left": 487,
+		"top": 53,
+		"width": 979,
+		"height": 909
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_strikethrough.4dm": {
+		"left": 218,
+		"top": 507,
+		"width": 1418,
+		"height": 701
+	},
+	"Sources/Forms/Demoform/ObjectMethods/vl_save.4dm": {
+		"left": 620,
+		"top": 113,
+		"width": 747,
+		"height": 369
+	}
+}

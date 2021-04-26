@@ -1,0 +1,179 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 10,
+	"bottomMargin": 16,
+	"markerHeader": 19,
+	"markerBody": 36,
+	"markerBreak": 40,
+	"markerFooter": 40,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Viereck3": {
+					"type": "rectangle",
+					"top": 17,
+					"left": 2,
+					"width": 512,
+					"height": 19,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"Linie4": {
+					"type": "line",
+					"top": 17,
+					"left": 0,
+					"width": 515,
+					"sizingX": "grow"
+				},
+				"Splitter1_Linie2": {
+					"type": "line",
+					"top": 3,
+					"left": 61,
+					"height": 35,
+					"stroke": "#AAAAAA"
+				},
+				"Viereck6": {
+					"type": "rectangle",
+					"top": -2,
+					"left": -2,
+					"width": 519,
+					"height": 41,
+					"sizingX": "grow",
+					"fill": "transparent"
+				},
+				"Linie7": {
+					"type": "line",
+					"top": 35,
+					"left": 0,
+					"width": 514,
+					"sizingX": "grow",
+					"stroke": "#AAAAAA"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 3,
+					"left": 3,
+					"width": 56,
+					"height": 12,
+					"sizingX": "grow",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "ID"
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 3,
+					"left": 65,
+					"width": 448,
+					"height": 12,
+					"sizingX": "grow",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"borderStyle": "raised",
+					"text": "Name"
+				},
+				"S1_Feld": {
+					"type": "input",
+					"top": 21,
+					"left": 3,
+					"width": 56,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Users:9]ID:1",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Feld": {
+					"type": "input",
+					"top": 21,
+					"left": 65,
+					"width": 448,
+					"height": 12,
+					"sizingX": "grow",
+					"dataSource": "[Users:9]Name:2",
+					"fontFamily": "Geneva",
+					"fontSize": 9,
+					"fontWeight": "bold",
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Ebene 1",
+		"defaultView": "Ebene 1",
+		"views": {
+			"Ebene 1": {},
+			"Ebene 2": {},
+			"Ebene 3": {},
+			"Ebene 4": {},
+			"Ebene 5": {},
+			"Ebene 6": {},
+			"Ebene 7": {},
+			"Ebene 8": {},
+			"Ebene 9": {}
+		}
+	}
+}

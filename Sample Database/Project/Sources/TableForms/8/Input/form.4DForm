@@ -1,0 +1,639 @@
+{
+	"destination": "detailScreen",
+	"width": 700,
+	"height": 600,
+	"markerBody": 450,
+	"markerBreak": 450,
+	"markerFooter": 460,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text14": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 573,
+					"height": 16,
+					"sizingX": "grow",
+					"stroke": "#000000",
+					"fontFamily": "Lucida Grande Bold",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"text": "Appointments"
+				},
+				"Linie15": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 702,
+					"sizingX": "grow"
+				},
+				"bErster": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Erster Datensat"
+					},
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/OSX Erster Datensatz.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bVorheriger": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Vorheriger Date"
+					},
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/OSX Vorheriger Datensatz.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNächster": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Nächster Datens"
+					},
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/OSX Nächster Datensatz.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLetzter": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Letzter Datensa"
+					},
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/OSX Letzter Datensatz.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Bild1": {
+					"type": "picture",
+					"top": 3,
+					"left": 273,
+					"width": 2,
+					"height": 73,
+					"pictureFormat": "tiled"
+				},
+				"bLöschen": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 290,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Datensatz Lösch"
+					},
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/OSX Datensatz Löschen.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bAbbrechen": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 353,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Abbrechen"
+					},
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/OSX Abbrechen.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bOK": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 416,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/library/OSX OK.pict",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text16": {
+					"type": "text",
+					"top": 129,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Subject : "
+				},
+				"Text17": {
+					"type": "text",
+					"top": 155,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Body : "
+				},
+				"Text18": {
+					"type": "text",
+					"top": 281,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Date1 : "
+				},
+				"Text19": {
+					"type": "text",
+					"top": 307,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Time1 : "
+				},
+				"Text20": {
+					"type": "text",
+					"top": 333,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Date2 : "
+				},
+				"Text21": {
+					"type": "text",
+					"top": 359,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Time2 : "
+				},
+				"Text22": {
+					"type": "text",
+					"top": 385,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "AllDay : "
+				},
+				"Text23": {
+					"type": "text",
+					"top": 411,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "UserID : "
+				},
+				"Text24": {
+					"type": "text",
+					"top": 437,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Lock : "
+				},
+				"Text25": {
+					"type": "text",
+					"top": 463,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Reminder : "
+				},
+				"Text26": {
+					"type": "text",
+					"top": 489,
+					"left": 184,
+					"width": 74,
+					"height": 16,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"text": "Tiptext : "
+				},
+				"Subject": {
+					"type": "input",
+					"top": 129,
+					"left": 263,
+					"width": 334,
+					"height": 16,
+					"dataSource": "[Appointments:8]Subject:2",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Body": {
+					"type": "input",
+					"top": 155,
+					"left": 263,
+					"width": 321,
+					"height": 110,
+					"dataSource": "[Appointments:8]Body:3",
+					"class": "Default",
+					"textAlign": "left",
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Date1": {
+					"type": "input",
+					"top": 281,
+					"left": 263,
+					"width": 82,
+					"height": 16,
+					"dataSource": "[Appointments:8]Date1:4",
+					"dataSourceTypeHint": "date",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Time1": {
+					"type": "input",
+					"top": 307,
+					"left": 263,
+					"width": 62,
+					"height": 16,
+					"dataSource": "[Appointments:8]Time1:5",
+					"dataSourceTypeHint": "time",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Date2": {
+					"type": "input",
+					"top": 333,
+					"left": 263,
+					"width": 82,
+					"height": 16,
+					"dataSource": "[Appointments:8]Date2:6",
+					"dataSourceTypeHint": "date",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Time2": {
+					"type": "input",
+					"top": 359,
+					"left": 263,
+					"width": 62,
+					"height": 16,
+					"dataSource": "[Appointments:8]Time2:7",
+					"dataSourceTypeHint": "time",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"AllDay": {
+					"type": "checkbox",
+					"top": 385,
+					"left": 263,
+					"width": 51,
+					"height": 16,
+					"dataSource": "[Appointments:8]AllDay:9",
+					"text": "Ja",
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"UserID": {
+					"type": "input",
+					"top": 411,
+					"left": 263,
+					"width": 64,
+					"height": 16,
+					"dataSource": "[Appointments:8]UserID:10",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Lock": {
+					"type": "checkbox",
+					"top": 437,
+					"left": 263,
+					"width": 51,
+					"height": 16,
+					"dataSource": "[Appointments:8]Lock:12",
+					"text": "Ja",
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Reminder": {
+					"type": "checkbox",
+					"top": 463,
+					"left": 263,
+					"width": 51,
+					"height": 16,
+					"dataSource": "[Appointments:8]Reminder:11",
+					"text": "Ja",
+					"stroke": "#000000",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Tiptext": {
+					"type": "input",
+					"top": 489,
+					"left": 263,
+					"width": 234,
+					"height": 96,
+					"dataSource": "[Appointments:8]Tiptext:8",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"fill": "#FFFFFF",
+					"borderStyle": "sunken",
+					"spellcheck": true,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Ebene 1",
+		"defaultView": "Ebene 1",
+		"views": {
+			"Ebene 1": {},
+			"Ebene 2": {
+				"objects": [
+					"Text14",
+					"Linie15"
+				]
+			},
+			"Ebene 3": {
+				"objects": [
+					"bErster",
+					"bVorheriger",
+					"bNächster",
+					"bLetzter",
+					"Bild1",
+					"bLöschen",
+					"bAbbrechen",
+					"bOK"
+				]
+			},
+			"Ebene 4": {},
+			"Ebene 5": {},
+			"Ebene 6": {},
+			"Ebene 7": {},
+			"Ebene 8": {},
+			"Ebene 9": {}
+		}
+	}
+}

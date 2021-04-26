@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+
+  <file datatype="x-STR#" original="undefined" product-version="v15" source-language="en-US" target-language="en">
+    <body>
+        
+    <group restype="x-4DK#" d4:groupID="15301">
+                
+        <trans-unit><source>hmCal view types</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmCal_DayView</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_WeekView</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmCal_MultiDayView</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmCal_MonthView</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_UserView</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_UserDayView</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_UserWeekView</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_UserMultiDayView</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmCal_ProjectView</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmCal_ResourcesView</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmCal_YearView</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmCal_DayUserView</source></trans-unit>
+ 
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15302">
+            
+        <trans-unit><source>hmCal errors</source></trans-unit>
+		<trans-unit d4:value="0"><source>hmCal_NoError</source></trans-unit>
+		<trans-unit d4:value="-1"><source>hmCal_HandleError</source></trans-unit>
+		<trans-unit d4:value="-2"><source>hmCal_AppointmentNotFound</source></trans-unit>
+		<trans-unit d4:value="-3"><source>hmCal_UserNotFound</source></trans-unit>
+		<trans-unit d4:value="-4"><source>hmCal_AppAlreadyExists</source></trans-unit>
+		<trans-unit d4:value="-5"><source>hmCal_StylesheetAlreadyExists</source></trans-unit>
+		<trans-unit d4:value="-6"><source>hmCal_StylesheetNotFound</source></trans-unit>
+		<trans-unit d4:value="-7"><source>hmCal_CreationNotPossible</source></trans-unit>
+		<trans-unit d4:value="-8"><source>hmCal_UserAlreadyExists</source></trans-unit>
+		<trans-unit d4:value="-9"><source>hmCal_SupAppNotFound</source></trans-unit>
+		<trans-unit d4:value="-10"><source>hmCal_RelationNotFound</source></trans-unit>
+		<trans-unit d4:value="-11"><source>hmCal_ViewNotSupported</source></trans-unit>
+		<trans-unit d4:value="-12"><source>hmCal_ActionNotPossible</source></trans-unit>
+		<trans-unit d4:value="-13"><source>hmCal_InvalidTransfermode</source></trans-unit>
+		<trans-unit d4:value="-14"><source>hmCal_InvalidPath</source></trans-unit>
+		<trans-unit d4:value="-15"><source>hmCal_CalendarNotFound</source></trans-unit>
+		<trans-unit d4:value="-16"><source>hmCal_WrongPictureFormat</source></trans-unit>
+		<trans-unit d4:value="-17"><source>hmCal_IconNotFound</source></trans-unit>
+		<trans-unit d4:value="-18"><source>hmCal_IconAlreadyExists</source></trans-unit>
+		<trans-unit d4:value="-19"><source>hmCal_ColumnAlreadyExists</source></trans-unit>
+		<trans-unit d4:value="-20"><source>hmCal_ColumnNotFound</source></trans-unit>
+		<trans-unit d4:value="-21"><source>hmCal_WrongRelationType</source></trans-unit>
+		<trans-unit d4:value="-22"><source>hmCal_WrongTimezone</source></trans-unit>
+		<trans-unit d4:value="-23"><source>hmCal_InvalidArraySize</source></trans-unit>
+		<trans-unit d4:value="-24"><source>hmCal_InvalidRange</source></trans-unit>
+		<trans-unit d4:value="-25"><source>hmCal_CellNotFound</source></trans-unit>
+		<trans-unit d4:value="-26"><source>hmCal_SpecialDayNotFound</source></trans-unit>
+        <trans-unit d4:value="-27"><source>hmCal_NoTimezoneDefined</source></trans-unit>
+        <trans-unit d4:value="-28"><source>hmCal_WorkingHourNotFound</source></trans-unit>
+		<trans-unit d4:value="-29"><source>hmCal_AppGroupNotFound</source></trans-unit>
+		<trans-unit d4:value="-30"><source>hmCal_ColumnCannotDeleted</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15303">
+            
+        <trans-unit><source>hmCal events</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_UpdateAppointments</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_DragAppointment</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_ResizeAppointment</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_NewAppointment</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_DeleteAppointment</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmCal_DoubleClickApp</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmCal_ClickAppointment</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmCal_DoubleClickArea</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmCal_ClickArea</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmCal_Drop</source></trans-unit>
+		<trans-unit d4:value="11"><source>hmCal_TryNewAppointment</source></trans-unit>
+		<trans-unit d4:value="12"><source>hmCal_TryDragAppointment</source></trans-unit>
+		<trans-unit d4:value="13"><source>hmCal_TryResizeAppointment</source></trans-unit>
+		<trans-unit d4:value="14"><source>hmCal_Error</source></trans-unit>
+		<trans-unit d4:value="15"><source>hmCal_Update_RRULE</source></trans-unit>
+		<trans-unit d4:value="16"><source>hmCal_DoubleClickRelation</source></trans-unit>
+		<trans-unit d4:value="17"><source>hmCal_ClickRelation</source></trans-unit>
+		<trans-unit d4:value="18"><source>hmCal_NewRelation</source></trans-unit>
+		<trans-unit d4:value="19"><source>hmCal_DeleteRelation</source></trans-unit>
+		<trans-unit d4:value="20"><source>hmCal_ClickAppCurrent</source></trans-unit>
+		<trans-unit d4:value="21"><source>hmCal_DoubleClickAppCurrent</source></trans-unit>
+		<trans-unit d4:value="22"><source>hmCal_ResizeObject</source></trans-unit>
+		<trans-unit d4:value="23"><source>hmCal_SortAppointment</source></trans-unit>
+		<trans-unit d4:value="24"><source>hmCal_ClickMonthMore</source></trans-unit>
+		<trans-unit d4:value="25"><source>hmCal_DoubleClickMonthMore</source></trans-unit>
+		<trans-unit d4:value="26"><source>hmCal_WhileDragAppointment</source></trans-unit>
+        <trans-unit d4:value="27"><source>hmCal_OnEditMenu</source></trans-unit>
+        <trans-unit d4:value="28"><source>hmCal_CreateNewAppointment</source></trans-unit>
+        <trans-unit d4:value="29"><source>hmCal_OnTooltip</source></trans-unit>
+        <trans-unit d4:value="30"><source>hmCal_OnScroll</source></trans-unit>
+        <trans-unit d4:value="31"><source>hmCal_SortUser</source></trans-unit>
+        <trans-unit d4:value="32"><source>hmCal_TimeIndicator_MoveBegin</source></trans-unit>
+        <trans-unit d4:value="33"><source>hmCal_TimeIndicator_Move</source></trans-unit>
+        <trans-unit d4:value="34"><source>hmCal_TimeIndicator_MoveEnd</source></trans-unit>
+        <trans-unit d4:value="35"><source>hmCal_OnColumnHeaderClick</source></trans-unit>
+		<trans-unit d4:value="36"><source>hmCal_OnColumnHeaderDoubleClick</source></trans-unit>
+		<trans-unit d4:value="37"><source>hmCal_OnCollapseExpand</source></trans-unit>
+		<trans-unit d4:value="38"><source>hmCal_OnAfterSortAppointments</source></trans-unit>
+		<trans-unit d4:value="39"><source>hmCal_OnCreateRecurrenceAppointment</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15304">
+        <trans-unit><source>hmCal properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_prop_UserListWidth</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_prop_MultiDayArea</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_prop_SwitchUser</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_prop_NewLineHeight</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_prop_DefaultEffect</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmCal_prop_MultiLine</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmCal_prop_Overlapping</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmCal_prop_ScrollAutoHide</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmCal_prop_ColumnWidth</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmCal_prop_DisplayTime</source></trans-unit>
+		<trans-unit d4:value="11"><source>hmCal_prop_AllowDragNew</source></trans-unit>
+		<trans-unit d4:value="12"><source>hmCal_prop_DeleteKey</source></trans-unit>
+		<trans-unit d4:value="13"><source>hmCal_prop_FreezeView_V</source></trans-unit>
+		<trans-unit d4:value="14"><source>hmCal_prop_ShowMonthHeader</source></trans-unit>
+		<trans-unit d4:value="15"><source>hmCal_prop_LeftBarWidth</source></trans-unit>
+		<trans-unit d4:value="16"><source>hmCal_prop_FreezeView_H</source></trans-unit>
+		<trans-unit d4:value="17"><source>hmCal_prop_IndicateOutsideApp</source></trans-unit>
+		<trans-unit d4:value="18"><source>hmCal_prop_GridCaption</source></trans-unit>
+		<trans-unit d4:value="19"><source>hmCal_prop_GridHourLine</source></trans-unit>
+		<trans-unit d4:value="20"><source>hmCal_prop_GridHalfHourLine</source></trans-unit>
+		<trans-unit d4:value="21"><source>hmCal_prop_Add3points</source></trans-unit>
+		<trans-unit d4:value="22"><source>hmCal_prop_OneLineCaption</source></trans-unit>
+		<trans-unit d4:value="23"><source>hmCal_prop_RepeatTimeline</source></trans-unit>
+		<trans-unit d4:value="24"><source>hmCal_prop_ShowTimeline</source></trans-unit>
+		<trans-unit d4:value="25"><source>hmCal_prop_ShowHeader</source></trans-unit>
+		<trans-unit d4:value="26"><source>hmCal_prop_CurrentTimeIndicator</source></trans-unit>
+		<trans-unit d4:value="27"><source>hmCal_prop_GMTexport</source></trans-unit>
+		<trans-unit d4:value="28"><source>hmCal_prop_MultiDayAreaHeight</source></trans-unit>
+		<trans-unit d4:value="29"><source>hmCal_prop_AutoMonthWeeks</source></trans-unit>
+		<trans-unit d4:value="30"><source>hmCal_prop_MultiDayAreaResize</source></trans-unit>
+		<trans-unit d4:value="31"><source>hmCal_prop_ColumnLines</source></trans-unit>
+		<trans-unit d4:value="32"><source>hmCal_prop_DragTimeVisible</source></trans-unit>
+		<trans-unit d4:value="33"><source>hmCal_prop_proj_scaleweek</source></trans-unit>
+		<trans-unit d4:value="34"><source>hmCal_prop_proj_scalemonth</source></trans-unit>
+		<trans-unit d4:value="35"><source>hmCal_prop_proj_scalequarter</source></trans-unit>
+		<trans-unit d4:value="36"><source>hmCal_prop_proj_scaleyear</source></trans-unit>
+		<trans-unit d4:value="37"><source>hmCal_prop_PrintingWidth</source></trans-unit>
+		<trans-unit d4:value="38"><source>hmCal_prop_PrintingHeight</source></trans-unit>
+		<trans-unit d4:value="39"><source>hmCal_prop_ProjectAreaHeight</source></trans-unit>
+		<trans-unit d4:value="40"><source>hmCal_prop_DrawAsRect</source></trans-unit>
+		<trans-unit d4:value="41"><source>hmCal_prop_ShowResources</source></trans-unit>
+		<trans-unit d4:value="42"><source>hmCal_prop_SyncArea</source></trans-unit>
+		<trans-unit d4:value="43"><source>hmCal_prop_UserListLock</source></trans-unit>
+		<trans-unit d4:value="44"><source>hmCal_prop_AutoUpdateApp</source></trans-unit>
+		<trans-unit d4:value="45"><source>hmCal_prop_ResourcesHourGrid</source></trans-unit>
+		<trans-unit d4:value="46"><source>hmCal_prop_MaxLines</source></trans-unit>
+		<trans-unit d4:value="47"><source>hmCal_prop_TimelineShift</source></trans-unit>
+		<trans-unit d4:value="48"><source>hmCal_prop_Lineheight</source></trans-unit>
+		<trans-unit d4:value="49"><source>hmCal_prop_proj_ShowHourLines</source></trans-unit>
+		<trans-unit d4:value="50"><source>hmCal_prop_ShowWeekNo</source></trans-unit>
+		<trans-unit d4:value="51"><source>hmCal_prop_WeekNoWidthMonth</source></trans-unit>
+		<trans-unit d4:value="52"><source>hmCal_prop_NewMonthView</source></trans-unit>
+		<trans-unit d4:value="53"><source>hmCal_prop_MaxAppHeightMonth</source></trans-unit>
+		<trans-unit d4:value="54"><source>hmCal_prop_ScrollInMonthView</source></trans-unit>
+		<trans-unit d4:value="55"><source>hmCal_prop_ShowTextOnBar</source></trans-unit>
+		<trans-unit d4:value="56"><source>hmCal_prop_IndicatorOffset</source></trans-unit>
+		<trans-unit d4:value="57"><source>hmCal_prop_AppRealloc</source></trans-unit>
+		<trans-unit d4:value="58"><source>hmCal_prop_MultiAreaHeight</source></trans-unit>
+		<trans-unit d4:value="59"><source>hmCal_prop_ColumnTextOffsetV</source></trans-unit>
+		<trans-unit d4:value="60"><source>hmCal_prop_AreaVisible</source></trans-unit>
+		<trans-unit d4:value="61"><source>hmCal_prop_MonthLineHeight</source></trans-unit>
+		<trans-unit d4:value="62"><source>hmCal_prop_GhostApppointment</source></trans-unit>
+        <trans-unit d4:value="63"><source>hmCal_prop_AutoSwitchFullDay</source></trans-unit>
+        <trans-unit d4:value="64"><source>hmCal_prop_RelationsInView5</source></trans-unit>
+        <trans-unit d4:value="65"><source>hmCal_prop_StaticArea</source></trans-unit>
+        <trans-unit d4:value="66"><source>hmCal_prop_StaticSecPerPixel</source></trans-unit>
+        <trans-unit d4:value="67"><source>hmCal_prop_HScrollbarColumn</source></trans-unit>
+        <trans-unit d4:value="68"><source>hmCal_prop_TimelinePosition</source></trans-unit>
+        <trans-unit d4:value="69"><source>hmCal_prop_FirstDisplUserID</source></trans-unit>
+        <trans-unit d4:value="70"><source>hmCal_prop_HierarchicalView5</source></trans-unit>
+        <trans-unit d4:value="71"><source>hmCal_prop_TimelineFullHours</source></trans-unit>
+        <trans-unit d4:value="72"><source>hmCal_prop_SelectionThickness</source></trans-unit>
+        <trans-unit d4:value="73"><source>hmCal_prop_ShowUserDescription</source></trans-unit>
+        <trans-unit d4:value="74"><source>hmCal_prop_NewFullDay</source></trans-unit>
+        <trans-unit d4:value="75"><source>hmCal_prop_NewAppointmentID</source></trans-unit>
+        <trans-unit d4:value="76"><source>hmCal_prop_CurrentTimeIndicatorMoveable</source></trans-unit>
+        <trans-unit d4:value="77"><source>hmCal_prop_TimeIndicator</source></trans-unit>
+        <trans-unit d4:value="78"><source>hmCal_prop_Edge</source></trans-unit>
+        <trans-unit d4:value="79"><source>hmCal_prop_UserSortable</source></trans-unit>
+        <trans-unit d4:value="80"><source>hmCal_prop_InvertSelection</source></trans-unit>
+        <trans-unit d4:value="81"><source>hmCal_prop_3LinesHeader</source></trans-unit>
+        <trans-unit d4:value="82"><source>hmCal_prop_Barheight</source></trans-unit>
+        <trans-unit d4:value="83"><source>hmCal_prop_TimelineDescrOffsetV</source></trans-unit>
+        <trans-unit d4:value="84"><source>hmCal_prop_HeaderLineHeight1</source></trans-unit>
+        <trans-unit d4:value="85"><source>hmCal_prop_HeaderLineHeight2</source></trans-unit>
+        <trans-unit d4:value="86"><source>hmCal_prop_HeaderLineHeight3</source></trans-unit>
+        <trans-unit d4:value="87"><source>hmCal_prop_DaylineFromHeader</source></trans-unit>
+        <trans-unit d4:value="88"><source>hmCal_prop_ScrollIncrementSeconds</source></trans-unit>
+        <trans-unit d4:value="89"><source>hmCal_prop_DescrTextInProjectView</source></trans-unit>
+        <trans-unit d4:value="90"><source>hmCal_prop_ScrollIncrementPixels</source></trans-unit>
+        <trans-unit d4:value="91"><source>hmCal_prop_IconsRight</source></trans-unit>
+		<trans-unit d4:value="92"><source>hmCal_prop_BulletMonthView</source></trans-unit>
+		<trans-unit d4:value="93"><source>hmCal_prop_AutomaticSortAppointments</source></trans-unit>
+		<trans-unit d4:value="94"><source>hmCal_prop_Lock_Column</source></trans-unit>
+		<trans-unit d4:value="95"><source>hmCal_prop_TimeMonthView</source></trans-unit>
+		<trans-unit d4:value="96"><source>hmCal_prop_Hierarchical_Indention</source></trans-unit>
+		<trans-unit d4:value="97"><source>hmCal_prop_Icon_Expand</source></trans-unit>
+		<trans-unit d4:value="98"><source>hmCal_prop_Icon_Collapse</source></trans-unit>
+		<trans-unit d4:value="99"><source>hmCal_prop_MoveAppTimeouts</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15305">
+        <trans-unit><source>hmCal effects</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmCal_Effect_Normal</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmCal_Effect_Dim</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_Effect_Fading</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_Effect_LeftBar</source></trans-unit>
+        
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15306">
+            
+        <trans-unit><source>hmCal RRule</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmCal_rrule_none</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmCal_rrule_secondly</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_rrule_minutely</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_rrule_hourly</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_rrule_daily</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_rrule_weekly</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmCal_rrule_monthly</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmCal_rrule_yearly</source></trans-unit>
+        
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15307">
+        <trans-unit><source>hmCal relation types</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_rel_EndToBegin</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_rel_BeginToBegin</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_rel_EndToEnd</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_rel_BeginToEnd</source></trans-unit>
+        
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15308">
+
+        <trans-unit><source>hmCal colors</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_clr_Background</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_clr_Workinghours</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_clr_Selection</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_clr_AppNewBackground</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_clr_AppNewForeground</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmCal_clr_AppNewHeadertext</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmCal_clr_AppNewDescrtext</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmCal_clr_ProjectAltBackground</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmCal_clr_Relation</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmCal_clr_Description</source></trans-unit>
+		<trans-unit d4:value="11"><source>hmCal_clr_Hourline</source></trans-unit>
+		<trans-unit d4:value="12"><source>hmCal_clr_Halfhourline</source></trans-unit>
+		<trans-unit d4:value="13"><source>hmCal_clr_AppBackcolor</source></trans-unit>
+		<trans-unit d4:value="14"><source>hmCal_clr_AppForecolor</source></trans-unit>
+		<trans-unit d4:value="15"><source>hmCal_clr_AppHeadertext</source></trans-unit>
+		<trans-unit d4:value="16"><source>hmCal_clr_AppDescrtext</source></trans-unit>
+		<trans-unit d4:value="17"><source>hmCal_clr_UserBackground</source></trans-unit>
+		<trans-unit d4:value="18"><source>hmCal_clr_ColumnBackground</source></trans-unit>
+		<trans-unit d4:value="19"><source>hmCal_clr_ColumnText</source></trans-unit>
+		<trans-unit d4:value="20"><source>hmCal_clr_ColumnHeadertext</source></trans-unit>
+		<trans-unit d4:value="21"><source>hmCal_clr_CurrentTimeIndicator</source></trans-unit>
+		<trans-unit d4:value="22"><source>hmCal_clr_CurrAppBackcolor</source></trans-unit>
+		<trans-unit d4:value="23"><source>hmCal_clr_CurrAppForecolor</source></trans-unit>
+		<trans-unit d4:value="24"><source>hmCal_clr_CurrAppHeadertext</source></trans-unit>
+		<trans-unit d4:value="25"><source>hmCal_clr_CurrAppDescrtext</source></trans-unit>
+		<trans-unit d4:value="26"><source>hmCal_clr_CellText</source></trans-unit>
+		<trans-unit d4:value="27"><source>hmCal_clr_CellBackground</source></trans-unit>
+		<trans-unit d4:value="28"><source>hmCal_clr_Frame</source></trans-unit>
+		<trans-unit d4:value="29"><source>hmCal_clr_Columnline</source></trans-unit>
+		<trans-unit d4:value="30"><source>hmCal_clr_Dayline</source></trans-unit>
+		<trans-unit d4:value="31"><source>hmCal_clr_TimelineHours</source></trans-unit>
+		<trans-unit d4:value="32"><source>hmCal_clr_AppFrame</source></trans-unit>
+		<trans-unit d4:value="33"><source>hmCal_clr_AppNewFrame</source></trans-unit>
+		<trans-unit d4:value="34"><source>hmCal_clr_UserHeader</source></trans-unit>
+		<trans-unit d4:value="35"><source>hmCal_clr_AppBullet</source></trans-unit>
+        <trans-unit d4:value="36"><source>hmCal_clr_UserHeaderText</source></trans-unit>
+        <trans-unit d4:value="37"><source>hmCal_clr_SpecDayBack</source></trans-unit>
+        <trans-unit d4:value="38"><source>hmCal_clr_SpecDayText</source></trans-unit>
+        <trans-unit d4:value="39"><source>hmCal_clr_SpecDayHeaderBack</source></trans-unit>
+        <trans-unit d4:value="40"><source>hmCal_clr_WorkingHoursText</source></trans-unit>
+        <trans-unit d4:value="41"><source>hmCal_clr_TimeIndicatorBack</source></trans-unit>
+        <trans-unit d4:value="42"><source>hmCal_clr_TimeIndicatorFrame</source></trans-unit>
+        <trans-unit d4:value="43"><source>hmCal_clr_TimeIndicatorText</source></trans-unit>
+        <trans-unit d4:value="44"><source>hmCal_clr_AppNewHeadertextInv</source></trans-unit>
+        <trans-unit d4:value="45"><source>hmCal_clr_AppNewDescrtextInv</source></trans-unit>
+        <trans-unit d4:value="46"><source>hmCal_clr_AppHeadertextInv</source></trans-unit>
+        <trans-unit d4:value="47"><source>hmCal_clr_AppDescrtextInv</source></trans-unit>
+		<trans-unit d4:value="48"><source>hmCal_clr_Timeline</source></trans-unit>
+		<trans-unit d4:value="49"><source>hmCal_clr_Time</source></trans-unit>
+		<trans-unit d4:value="50"><source>hmCal_clr_TimeSelected</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15309">
+        <trans-unit><source>hmCal appointment properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_aprop_ID</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_aprop_CalendarID</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_aprop_Textheader</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_aprop_Textbody</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_aprop_Tiptext</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmCal_aprop_AllDay</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmCal_aprop_DateFrom</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmCal_aprop_DateTo</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmCal_aprop_TimeFrom</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmCal_aprop_TimeTo</source></trans-unit>
+		<trans-unit d4:value="11"><source>hmCal_aprop_Effect</source></trans-unit>
+		<trans-unit d4:value="12"><source>hmCal_aprop_DoneStatus</source></trans-unit>
+		<trans-unit d4:value="13"><source>hmCal_aprop_Milestone</source></trans-unit>
+		<trans-unit d4:value="14"><source>hmCal_aprop_Icon</source></trans-unit>
+		<trans-unit d4:value="15"><source>hmCal_aprop_Lock</source></trans-unit>
+		<trans-unit d4:value="16"><source>hmCal_aprop_SupAppointment</source></trans-unit>
+		<trans-unit d4:value="17"><source>hmCal_aprop_HeaderVisible</source></trans-unit>
+		<trans-unit d4:value="18"><source>hmCal_aprop_TimeVisible</source></trans-unit>
+		<trans-unit d4:value="19"><source>hmCal_aprop_ShowCurrentTime</source></trans-unit>
+		<trans-unit d4:value="20"><source>hmCal_aprop_CurrDateFrom</source></trans-unit>
+		<trans-unit d4:value="21"><source>hmCal_aprop_CurrDateTo</source></trans-unit>
+		<trans-unit d4:value="22"><source>hmCal_aprop_CurrTimeFrom</source></trans-unit>
+		<trans-unit d4:value="23"><source>hmCal_aprop_CurrTimeTo</source></trans-unit>
+		<trans-unit d4:value="24"><source>hmCal_aprop_Location</source></trans-unit>
+		<trans-unit d4:value="25"><source>hmCal_aprop_Expand</source></trans-unit>
+		<trans-unit d4:value="26"><source>hmCal_aprop_Priority</source></trans-unit>
+		<trans-unit d4:value="27"><source>hmCal_aprop_UID</source></trans-unit>
+		<trans-unit d4:value="28"><source>hmCal_aprop_URL</source></trans-unit>
+		<trans-unit d4:value="29"><source>hmCal_aprop_Independent</source></trans-unit>
+		<trans-unit d4:value="30"><source>hmCal_aprop_DrawAsRect</source></trans-unit>
+		<trans-unit d4:value="31"><source>hmCal_aprop_HasSubApps</source></trans-unit>
+		<trans-unit d4:value="32"><source>hmCal_aprop_Icon2</source></trans-unit>
+		<trans-unit d4:value="33"><source>hmCal_aprop_Icon3</source></trans-unit>
+		<trans-unit d4:value="34"><source>hmCal_aprop_TextheaderMS</source></trans-unit>
+		<trans-unit d4:value="35"><source>hmCal_aprop_TextbodyMS</source></trans-unit>
+		<trans-unit d4:value="36"><source>hmCal_aprop_UseGradient</source></trans-unit>
+		<trans-unit d4:value="37"><source>hmCal_aprop_Sequence</source></trans-unit>
+		<trans-unit d4:value="38"><source>hmCal_aprop_Method</source></trans-unit>
+        <trans-unit d4:value="39"><source>hmCal_aprop_Textalignment</source></trans-unit>
+        <trans-unit d4:value="39"><source>hmCal_aprop_Textalignment_H</source></trans-unit>
+		<trans-unit d4:value="40"><source>hmCal_aprop_ShowFrame</source></trans-unit>
+        <trans-unit d4:value="41"><source>hmCal_aprop_DTSTAMP</source></trans-unit>
+        <trans-unit d4:value="42"><source>hmCal_aprop_UserID</source></trans-unit>
+        <trans-unit d4:value="43"><source>hmCal_aprop_Group</source></trans-unit>
+        <trans-unit d4:value="44"><source>hmCal_aprop_Textalignment_V</source></trans-unit>
+        <trans-unit d4:value="45"><source>hmCal_aprop_Header_Linespacing</source></trans-unit>
+        <trans-unit d4:value="46"><source>hmCal_aprop_Header_Margin_left</source></trans-unit>
+        <trans-unit d4:value="47"><source>hmCal_aprop_Header_Margin_top</source></trans-unit>
+        <trans-unit d4:value="48"><source>hmCal_aprop_Header_Margin_right</source></trans-unit>
+        <trans-unit d4:value="49"><source>hmCal_aprop_Header_Margin_bottom</source></trans-unit>
+        <trans-unit d4:value="50"><source>hmCal_aprop_Descr_Linespacing</source></trans-unit>
+        <trans-unit d4:value="51"><source>hmCal_aprop_Descr_Margin_left</source></trans-unit>
+        <trans-unit d4:value="52"><source>hmCal_aprop_Descr_Margin_top</source></trans-unit>
+        <trans-unit d4:value="53"><source>hmCal_aprop_Descr_Margin_right</source></trans-unit>
+		<trans-unit d4:value="54"><source>hmCal_aprop_Descr_Margin_bottom</source></trans-unit>
+		<trans-unit d4:value="55"><source>hmCal_aprop_Alarm</source></trans-unit>
+		<trans-unit d4:value="56"><source>hmCal_aprop_Independent_Children</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15310">
+ 
+        <trans-unit><source>hmCal column properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_cprop_width</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_cprop_visible</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_cprop_headertext1</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_cprop_headertext2</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_cprop_alignment</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmCal_cprop_resizeable</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmCal_cprop_minwidth</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmCal_cprop_headeralignment</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmCal_cprop_wordwrap</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmCal_cprop_use_standardtext</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15311">
+        <trans-unit><source>hmCal picture formats</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_picture_jpg</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_picture_png</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_picture_bmp</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmCal_picture_gif</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmCal_picture_tiff</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmCal_picture_pdf</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmCal_picture_svg</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmCal_picture_emf</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmCal_picture_jxr</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmCal_picture_dds</source></trans-unit>
+
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15312">
+        <trans-unit><source>hmCal calendar properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_vprop_Visible</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmCal_vprop_UpdateAppointments</source></trans-unit>
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15310">
+        
+        <trans-unit><source>hmCal user properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_uprop_Name</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmCal_uprop_Icon</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmCal_uprop_Timezone</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmCal_uprop_TimezoneOffset</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmCal_uprop_Lineheight</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmCal_uprop_SupUser</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmCal_uprop_Expand</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmCal_uprop_Description</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmCal_uprop_Visible</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmCal_uprop_MinimumLineHeight</source></trans-unit>
+
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15311">
+        
+        <trans-unit><source>hmCal working hours properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_wprop_Name</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15312">
+        
+        <trans-unit><source>hmCal appointment group properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_gprop_Shift</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15313">
+        
+        <trans-unit><source>hmCal mini styles</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_mini_style_classic</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmCal_mini_style_modern</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15314">
+        
+        <trans-unit><source>hmCal mini stylesheets</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_mini_stylesheet_day</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15315">
+        
+        <trans-unit><source>hmCal Overlapping</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmCal_Overlapping_None</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmCal_Overlapping_Half</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmCal_Overlapping_Complete</source></trans-unit>
+
+    </group>
+	
+	<group restype="x-4DK#" d4:groupID="15316">
+		
+		<trans-unit><source>hmCal Time in Month View</source></trans-unit>
+		<trans-unit d4:value="0"><source>hmCal_TimeMonth_None</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmCal_TimeMonth_Left</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_TimeMonth_Right</source></trans-unit>
+		
+	</group>
+	
+    </body>
+  </file>
+
+</xliff>
