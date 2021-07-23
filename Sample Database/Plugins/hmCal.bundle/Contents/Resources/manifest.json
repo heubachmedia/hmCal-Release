@@ -1110,6 +1110,11 @@
 				"theme":"hmCal Columns",
 				"syntax":"hmCal_Set Column Cell Tip(&L;&L;&L;&T):L",
 				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Areas",
+				"syntax":"hmCal_Get Event(&L):J",
+				"threadSafe": true
 				}
                 ]
 
