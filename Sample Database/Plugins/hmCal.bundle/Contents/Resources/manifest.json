@@ -1115,6 +1115,11 @@
 				"theme":"hmCal Areas",
 				"syntax":"hmCal_Get Event(&L):J",
 				"threadSafe": true
+				},
+				{
+				"theme":"hmCal Appointments",
+				"syntax":"hmCal_SET APP DRAW OBJECTS(&L;&L;&C)",
+				"threadSafe": true
 				}
                 ]
 
