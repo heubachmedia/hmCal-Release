@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="Sample Database 4D v19" uuid="D164708450A641928A89C1A7DDA3332E" collation_locale="de">
+<base name="Sample Database" uuid="D164708450A641928A89C1A7DDA3332E" collation_locale="de">
 	<schema name="DEFAULT_SCHEMA"/>
 	<table name="Appointments" uuid="076F169A041B47D4877CB36E6DC400CE" id="8">
 		<field name="ID" uuid="5DA48EAA482344A69B9EAD3BBA5A2C37" type="4" unique="true" never_null="true" id="1"/>
@@ -99,7 +99,7 @@
 			<table_ref uuid="58D86C6D2E6E4E88ACF05CA76E05493A" name="Users"/>
 		</field_ref>
 	</index>
-	<base_extra data_file_path=":DEMO.4DD" __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+	<base_extra data_file_path=":DEMO.4DD" __stringCompHash="icu:72.1.0" __keywordBuildingHash="icu:72.1.0">
 		<temp_folder folder_selector="data"/>
 	</base_extra>
 </base>
