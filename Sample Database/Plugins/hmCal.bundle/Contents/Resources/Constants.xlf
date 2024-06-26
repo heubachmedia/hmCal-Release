@@ -205,6 +205,7 @@
 		<trans-unit d4:value="97"><source>hmCal_prop_Icon_Expand</source></trans-unit>
 		<trans-unit d4:value="98"><source>hmCal_prop_Icon_Collapse</source></trans-unit>
 		<trans-unit d4:value="99"><source>hmCal_prop_MoveAppTimeouts</source></trans-unit>
+		<trans-unit d4:value="100"><source>hmCal_prop_ForceHeader</source></trans-unit>
 
     </group>
         
