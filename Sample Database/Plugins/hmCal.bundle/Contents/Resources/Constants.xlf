@@ -415,8 +415,10 @@
     <group restype="x-4DK#" d4:groupID="15311">
         
         <trans-unit><source>hmCal working hours properties</source></trans-unit>
-        <trans-unit d4:value="1"><source>hmCal_wprop_Name</source></trans-unit>
-        
+		<trans-unit d4:value="1"><source>hmCal_wprop_Name</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmCal_wprop_NameOffsetH</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmCal_wprop_NameOffsetV</source></trans-unit>
+
     </group>
     
     <group restype="x-4DK#" d4:groupID="15312">
