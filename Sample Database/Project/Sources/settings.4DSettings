@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="12">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="13">
 	<com.4d>
 		<database>
 			<cache flush_buffer_delay="15" size_fixed="32" size_maximum="100" size_reserved="128"/>
@@ -30,7 +30,7 @@
 		</server>
 		<compiler>
 			<typage default_for_button="2" default_for_numeric="1"/>
-			<options compilation_path="3" initialize_local_variables="3"/>
+			<options compilation_path="4" initialize_local_variables="3"/>
 		</compiler>
 		<general>
 			<mover always_display_dialog="2"/>
@@ -50,11 +50,11 @@
 				<webservices>
 					<server allow_requests="false"/>
 				</webservices>
-				<configuration session_mode="2" automatic_session_management="true"/>
+				<configuration automatic_session_management="true" session_mode="2"/>
 			</standalone_server>
 			<remote>
 				<misc/>
-				<configuration allow_ssl="false" session_mode="2" automatic_session_management="true"/>
+				<configuration allow_ssl="false" automatic_session_management="true" session_mode="2"/>
 				<options>
 					<web_processes timeout_for_inactives="5"/>
 					<filters allow_4dsync_urls="true"/>

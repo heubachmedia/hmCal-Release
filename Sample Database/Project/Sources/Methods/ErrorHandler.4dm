@@ -1,7 +1,5 @@
-//%attributes = {}
-C_LONGINT:C283($vl_Error)
-
-$vl_Error:=$1
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vl_Error : Integer)
 
 Case of 
 	: ($vl_Error=0)

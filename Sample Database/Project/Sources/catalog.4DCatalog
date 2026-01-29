@@ -99,7 +99,7 @@
 			<table_ref uuid="58D86C6D2E6E4E88ACF05CA76E05493A" name="Users"/>
 		</field_ref>
 	</index>
-	<base_extra data_file_path=":DEMO.4DD" __stringCompHash="icu:72.1.0" __keywordBuildingHash="icu:72.1.0">
+	<base_extra data_file_path=":DEMO.4DD">
 		<temp_folder folder_selector="data"/>
 	</base_extra>
 </base>

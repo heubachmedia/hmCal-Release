@@ -1,7 +1,7 @@
-//%attributes = {}
-C_LONGINT:C283($i; $vl_area; $vl_error)
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vl_area : Integer)
 
-$vl_area:=$1
+var $i; $vl_error : Integer
 
 ALL RECORDS:C47([Users:9])
 

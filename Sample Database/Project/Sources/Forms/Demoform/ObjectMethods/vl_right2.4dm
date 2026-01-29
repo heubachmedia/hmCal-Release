@@ -1,9 +1,9 @@
-C_LONGINT:C283($vl_area; $vl_view)
-C_DATE:C307($vd_date)
+var $vl_area; $vl_view : Integer
+var $vd_date : Date
 
 If (Form event code:C388=On Clicked:K2:4)
 	
-	$vl_area:=OBJECT_GetLongint("calarea")
+	$vl_area:=OBJECT Get value:C1743("calarea")
 	
 	$vd_date:=hmCal_Get Start Date($vl_area)
 	$vl_view:=hmCal_Get View($vl_area)

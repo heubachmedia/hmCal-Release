@@ -1,11 +1,11 @@
-C_POINTER:C301($vp_object)
-C_LONGINT:C283($vl_area; $vl_index)
+var $vp_object : Pointer
+var $vl_area; $vl_index : Integer
 
 If (Form event code:C388=On Clicked:K2:4)
 	
 	$vp_object:=OBJECT_GetPointer("tl_visibleweekdays")
 	
-	$vl_area:=OBJECT_GetLongint("calarea")
+	$vl_area:=OBJECT Get value:C1743("calarea")
 	
 	$vl_index:=$vp_object->
 	

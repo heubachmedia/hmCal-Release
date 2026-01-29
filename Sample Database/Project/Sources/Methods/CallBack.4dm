@@ -1,28 +1,21 @@
 //%attributes = {}
-C_LONGINT:C283($0; $1; $2; $3; $6; $7; $8; $vl_area; $vl_event; $vl_appointment; $vl_time1; $vl_time2; $vl_return; $vl_table; $vl_field; $vl_arrayindex; $vl_process; $vl_userref; $vl_view; $vl_windowref)
-C_DATE:C307($vd_date1; $vd_date2)
-C_TIME:C306($vu_time1; $vu_time2)
-C_BOOLEAN:C305($vf_ganztag)
-C_POINTER:C301($vp_variable; $vp_personen; $vp_listbox; $vp_object)
-C_TEXT:C284($vt_varname1; $vt_varname2; $vt_clicktext)
+#DECLARE($vl_area : Integer; $vl_event : Integer; $vl_appointment : Integer; $vd_date1 : Date; $vd_date2 : Date; $vl_time1 : Integer; $vl_time2 : Integer; $vl_ganztag : Integer; $vl_userref : Integer)->$vl_return : Integer
+
+var $vl_table; $vl_field; $vl_arrayindex; $vl_process; $vl_view; $vl_windowref : Integer
+var $vf_ganztag : Boolean
+var $vp_variable; $vp_personen; $vp_listbox; $vp_object : Pointer
+var $vt_varname1; $vt_varname2; $vt_clicktext : Text
+var $vu_time1; $vu_time2 : Time
 
 $vl_return:=0
 
-$vl_area:=$1
-$vl_event:=$2
-$vl_appointment:=$3
-$vd_date1:=$4
-$vd_date2:=$5
-$vl_time1:=$6
-$vl_time2:=$7
-$vf_ganztag:=$8=1
-$vl_userref:=$9
+$vf_ganztag:=$vl_ganztag=1
 
 $vu_time1:=?00:00:00?+$vl_time1
 $vu_time2:=?00:00:00?+$vl_time2
+
 Case of 
 	: ($vl_event=hmCal_UpdateAppointments)
-		
 		InitAppointments($vl_area; $vd_date1; $vd_date2)
 		StyleSheet_Apply($vl_area)
 		
@@ -49,7 +42,7 @@ Case of
 		[Appointments:8]UserID:10:=$vl_userref
 		SAVE RECORD:C53([Appointments:8])
 		
-		$vl_windowref:=Open window:C153(200; 100; 800; 700; Plain window:K34:13)
+		$vl_windowref:=Open form window:C675([Appointments:8]; "Input")
 		MODIFY RECORD:C57([Appointments:8]; *)
 		
 		If (OK=1)
@@ -72,9 +65,9 @@ Case of
 		End if 
 		
 	: ($vl_event=hmCal_DoubleClickApp)
-		
 		QUERY:C277([Appointments:8]; [Appointments:8]ID:1=$vl_appointment)
-		//$vl_windowref:=Open form window([Appointments];"Input";Plain window)
+		
+		$vl_windowref:=Open form window:C675([Appointments:8]; "Input")
 		MODIFY RECORD:C57([Appointments:8]; *)
 		
 		If (OK=1)
@@ -103,7 +96,7 @@ Case of
 			$vt_clicktext:=$vt_clicktext+", User: "+String:C10($vl_userref)
 		End if 
 		
-		OBJECT_SetText("vt_clickinfo"; $vt_clicktext)
+		OBJECT SET VALUE:C1742("vt_clickinfo"; $vt_clicktext)
 		
 	: ($vl_event=hmCal_Drop)
 		
@@ -168,5 +161,3 @@ Case of
 		//hmCal_SET DRAG TIMERANGE ($vl_area;[Appointments]Date1;†00:00:00†+[Appointments]Time1;[Appointments]Date1+1000;0)
 		
 End case 
-
-$0:=$vl_return

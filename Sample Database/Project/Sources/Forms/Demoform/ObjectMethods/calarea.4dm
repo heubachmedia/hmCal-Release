@@ -1,10 +1,10 @@
-C_LONGINT:C283($vl_event; $vl_ziel; $vl_zeit; $vl_userid; $vl_area; $vl_miniarea)
-C_DATE:C307($vd_datum)
+var $vl_event; $vl_ziel; $vl_zeit; $vl_userid; $vl_area; $vl_miniarea : Integer
+var $vd_datum : Date
 
 If (Form event code:C388=On Plug in Area:K2:16)
 	
-	$vl_area:=OBJECT_GetLongint("calarea")
-	$vl_miniarea:=OBJECT_GetLongint("calmini")
+	$vl_area:=OBJECT Get value:C1743("calarea")
+	$vl_miniarea:=OBJECT Get value:C1743("calmini")
 	
 	$vl_event:=hmCal_Get Last Event($vl_area)
 	
@@ -21,7 +21,7 @@ If (Form event code:C388=On Plug in Area:K2:16)
 				If ($vd_datum#!00-00-00!)
 					
 					hmCal_DELETE ALL SPECIAL DAYS($vl_area)
-					hmCal_ADD SPECIAL DAY($vl_area; $vd_datum; -1; -1; -1)
+					hmCal_Add Special Day($vl_area; $vd_datum; -1; -1; -1)
 					
 					hmCal_mini_SET DATE($vl_miniarea; $vd_datum)
 					

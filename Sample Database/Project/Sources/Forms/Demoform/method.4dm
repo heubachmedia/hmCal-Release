@@ -1,6 +1,6 @@
-C_LONGINT:C283($i; $vl_pos; $vl_view; $vl_area; $vl_miniarea; $vl_red; $vl_green; $vl_blue; $vl_color)
-C_POINTER:C301($vp_object; $vp_tl_hoursperpage; $vp_register; $vp_personen; $vp_stylesheet_name; $vp_stylesheet_fontname; $vp_stylesheet_fontsize; $vp_stylesheet_fontstyle; $vp_tt_picturesize; $vp_tg_picturesize_width; $vp_tg_picturesize_height; $vp_tt_picttypes; $vp_stylesheet_type)
-C_TEXT:C284($vt_Callback)
+var $i; $vl_pos; $vl_view; $vl_area; $vl_miniarea; $vl_red; $vl_green; $vl_blue; $vl_color : Integer
+var $vp_object; $vp_tl_hoursperpage; $vp_register; $vp_personen; $vp_stylesheet_name; $vp_stylesheet_fontname; $vp_stylesheet_fontsize; $vp_stylesheet_fontstyle; $vp_tt_picturesize; $vp_tg_picturesize_width; $vp_tg_picturesize_height; $vp_tt_picttypes; $vp_stylesheet_type : Pointer
+var $vt_Callback : Text
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
@@ -15,8 +15,8 @@ Case of
 		$vp_register->{4}:="Info"
 		$vp_register->{5}:="Save as image"
 		
-		$vl_area:=OBJECT_GetLongint("calarea")
-		$vl_miniarea:=OBJECT_GetLongint("calmini")
+		$vl_area:=OBJECT Get value:C1743("calarea")
+		$vl_miniarea:=OBJECT Get value:C1743("calmini")
 		
 		ARRAY TEXT:C222($tt_monthnames; 12)
 		$tt_monthnames{1}:="Januar"
@@ -68,19 +68,19 @@ Case of
 		
 		$vl_view:=hmCal_Get View($vl_area)
 		
-		OBJECT_SetLongint("vl_dayview"; Num:C11($vl_view=hmCal_DayView))
-		OBJECT_SetLongint("vl_weekview"; Num:C11($vl_view=hmCal_WeekView))
-		OBJECT_SetLongint("vl_monthview"; Num:C11($vl_view=hmCal_MonthView))
-		OBJECT_SetLongint("vl_dayuserview"; Num:C11($vl_view=hmCal_UserMultiDayView))
-		OBJECT_SetLongint("vl_weekuser"; Num:C11($vl_view=hmCal_UserWeekView))
-		OBJECT_SetLongint("vl_resourcesview"; Num:C11($vl_view=hmCal_ResourcesView))
-		OBJECT_SetLongint("vl_year_view"; Num:C11($vl_view=hmCal_YearView))
-		OBJECT_SetLongint("vl_userdayview"; Num:C11($vl_view=hmCal_UserDayView))
+		OBJECT SET VALUE:C1742("vl_dayview"; Num:C11($vl_view=hmCal_DayView))
+		OBJECT SET VALUE:C1742("vl_weekview"; Num:C11($vl_view=hmCal_WeekView))
+		OBJECT SET VALUE:C1742("vl_monthview"; Num:C11($vl_view=hmCal_MonthView))
+		OBJECT SET VALUE:C1742("vl_dayuserview"; Num:C11($vl_view=hmCal_UserMultiDayView))
+		OBJECT SET VALUE:C1742("vl_weekuser"; Num:C11($vl_view=hmCal_UserWeekView))
+		OBJECT SET VALUE:C1742("vl_resourcesview"; Num:C11($vl_view=hmCal_ResourcesView))
+		OBJECT SET VALUE:C1742("vl_year_view"; Num:C11($vl_view=hmCal_YearView))
+		OBJECT SET VALUE:C1742("vl_userdayview"; Num:C11($vl_view=hmCal_UserDayView))
 		
-		OBJECT_SetLongint("vl_rounding"; 1)
+		OBJECT SET VALUE:C1742("vl_rounding"; 1)
 		hmCal_SET ROUNDING($vl_area; 1)
 		
-		OBJECT_SetLongint("vl_roundingruler"; 15)
+		OBJECT SET VALUE:C1742("vl_roundingruler"; 15)
 		hmCal_SET ROUNDING VALUE($vl_area; 15)
 		
 		OBJECT SET ENABLED:C1123(*; "vl_roundingruler"; True:C214)
@@ -148,19 +148,19 @@ Case of
 		$vp_personen->{3}:="Mitch Stone"
 		$vp_personen->{4}:="Ann Legal"
 		
-		OBJECT_SetText("vt_clickinfo"; "")
+		OBJECT SET VALUE:C1742("vt_clickinfo"; "")
 		OBJECT_InitArray("tl_selectedAppointments"; LongInt array:K8:19)
 		
-		OBJECT_SetLongint("vl_onelineheader"; 0)
-		OBJECT_SetLongint("vl_startonmonday"; 1)
-		OBJECT_SetLongint("vl_viewmultidayarea"; 1)
-		OBJECT_SetLongint("vl_allowdragnew"; 1)
-		OBJECT_SetLongint("vl_overlapping"; 1)
-		OBJECT_SetLongint("vl_ScrollAutoHide"; 1)
-		OBJECT_SetLongint("vl_displaytime"; 1)
-		OBJECT_SetLongint("vl_FreezeView_V"; 0)
-		OBJECT_SetLongint("vl_ShowMonthHeader"; 1)
-		OBJECT_SetLongint("vl_IndicateOutsideApp"; 1)
+		OBJECT SET VALUE:C1742("vl_onelineheader"; 0)
+		OBJECT SET VALUE:C1742("vl_startonmonday"; 1)
+		OBJECT SET VALUE:C1742("vl_viewmultidayarea"; 1)
+		OBJECT SET VALUE:C1742("vl_allowdragnew"; 1)
+		OBJECT SET VALUE:C1742("vl_overlapping"; 1)
+		OBJECT SET VALUE:C1742("vl_ScrollAutoHide"; 1)
+		OBJECT SET VALUE:C1742("vl_displaytime"; 1)
+		OBJECT SET VALUE:C1742("vl_FreezeView_V"; 0)
+		OBJECT SET VALUE:C1742("vl_ShowMonthHeader"; 1)
+		OBJECT SET VALUE:C1742("vl_IndicateOutsideApp"; 1)
 		
 		SetOptions
 		

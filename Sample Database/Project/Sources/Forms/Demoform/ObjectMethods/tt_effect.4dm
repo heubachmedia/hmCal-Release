@@ -1,5 +1,5 @@
-C_LONGINT:C283($vl_error; $vl_effect; $vl_area)
-C_POINTER:C301($vp_object)
+var $vl_error; $vl_effect; $vl_area : Integer
+var $vp_object : Pointer
 
 If (Form event code:C388=On Clicked:K2:4)
 	
@@ -7,7 +7,7 @@ If (Form event code:C388=On Clicked:K2:4)
 	
 	$vl_effect:=$vp_object->-1
 	
-	$vl_area:=OBJECT_GetLongint("calarea")
+	$vl_area:=OBJECT Get value:C1743("calarea")
 	
 	$vl_error:=hmCal_Set App Property($vl_area; 0; hmCal_aprop_Effect; $vl_effect; ""; !00-00-00!)
 	hmCal_SET AREA PROPERTY($vl_area; hmCal_prop_DefaultEffect; $vl_effect)

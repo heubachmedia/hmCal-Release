@@ -1,9 +1,7 @@
-//%attributes = {}
-C_POINTER:C301($vp_arrayptr)
-C_LONGINT:C283($vl_destsize; $vl_currarraysize)
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vp_arrayptr : Pointer; $vl_destsize : Integer)
 
-$vp_arrayptr:=$1
-$vl_destsize:=$2
+var $vl_currarraysize : Integer
 
 $vl_currarraysize:=Size of array:C274($vp_arrayptr->)
 

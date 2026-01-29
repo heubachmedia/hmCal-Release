@@ -1,9 +1,9 @@
-C_POINTER:C301($vp_object)
-C_LONGINT:C283($vl_miniarea; $vl_index)
+var $vp_object : Pointer
+var $vl_miniarea; $vl_index : Integer
 
 If (Form event code:C388=On Clicked:K2:4)
 	
-	$vl_miniarea:=OBJECT_GetLongint("calmini")
+	$vl_miniarea:=OBJECT Get value:C1743("calmini")
 	
 	$vp_object:=OBJECT_GetPointer("tl_mini_months")
 	

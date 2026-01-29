@@ -1,6 +1,6 @@
 //%attributes = {}
-C_LONGINT:C283($vl_area; $vl_error)
-C_PICTURE:C286($vb_picture)
+var $vl_area; $vl_error : Integer
+var $vb_picture : Picture
 
 $vl_area:=hmCal_New Offscreen Area(700; 500)
 hmCal_SET AREA PROPERTY($vl_area; hmCal_prop_DefaultEffect; 1)

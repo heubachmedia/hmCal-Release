@@ -1,4 +1,4 @@
-C_LONGINT:C283($vl_error)
+var $vl_error : Integer
 
 If (Shift down:C543)
 	TRACE:C157

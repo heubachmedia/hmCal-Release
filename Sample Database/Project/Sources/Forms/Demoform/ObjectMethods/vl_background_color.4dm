@@ -1,8 +1,8 @@
-C_LONGINT:C283($vl_area; $vl_forecolor; $vl_backcolor; $vl_altbackcolor; $vl_red; $vl_green; $vl_blue; $vl_color)
+var $vl_area; $vl_forecolor; $vl_backcolor; $vl_altbackcolor; $vl_red; $vl_green; $vl_blue; $vl_color : Integer
 
 If (Form event code:C388=On Clicked:K2:4)
 	
-	$vl_area:=OBJECT_GetLongint("calarea")
+	$vl_area:=OBJECT Get value:C1743("calarea")
 	
 	$vl_forecolor:=0
 	$vl_backcolor:=0

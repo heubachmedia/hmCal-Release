@@ -1,9 +1,9 @@
-C_LONGINT:C283($vl_area; $vl_index)
-C_POINTER:C301($vp_object)
+var $vl_area; $vl_index : Integer
+var $vp_object : Pointer
 
 If (Form event code:C388=On Clicked:K2:4)
 	
-	$vl_area:=OBJECT_GetLongint("calarea")
+	$vl_area:=OBJECT Get value:C1743("calarea")
 	$vp_object:=OBJECT_GetPointer("tl_daysperweek")
 	
 	$vl_index:=$vp_object->

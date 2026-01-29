@@ -58,149 +58,8 @@
 					"type": "line",
 					"top": 77,
 					"left": 19,
-					"width": 702,
+					"width": 601,
 					"sizingX": "grow"
-				},
-				"bErster": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 21,
-					"width": 48,
-					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Erster Datensat"
-					},
-					"action": "firstRecord",
-					"rowCount": 4,
-					"picture": "/RESOURCES/Images/library/OSX Erster Datensatz.pict",
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bVorheriger": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 84,
-					"width": 48,
-					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Vorheriger Date"
-					},
-					"action": "previousRecord",
-					"rowCount": 4,
-					"picture": "/RESOURCES/Images/library/OSX Vorheriger Datensatz.pict",
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bNächster": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 147,
-					"width": 48,
-					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Nächster Datens"
-					},
-					"action": "nextRecord",
-					"rowCount": 4,
-					"picture": "/RESOURCES/Images/library/OSX Nächster Datensatz.pict",
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bLetzter": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 210,
-					"width": 48,
-					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Letzter Datensa"
-					},
-					"action": "lastRecord",
-					"rowCount": 4,
-					"picture": "/RESOURCES/Images/library/OSX Letzter Datensatz.pict",
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"Bild1": {
-					"type": "picture",
-					"top": 3,
-					"left": 273,
-					"width": 2,
-					"height": 73,
-					"pictureFormat": "tiled"
-				},
-				"bLöschen": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 290,
-					"width": 48,
-					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Datensatz Lösch"
-					},
-					"action": "deleteRecord",
-					"rowCount": 4,
-					"picture": "/RESOURCES/Images/library/OSX Datensatz Löschen.pict",
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bAbbrechen": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 353,
-					"width": 48,
-					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Abbrechen"
-					},
-					"action": "cancel",
-					"rowCount": 4,
-					"picture": "/RESOURCES/Images/library/OSX Abbrechen.pict",
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
-				},
-				"bOK": {
-					"type": "pictureButton",
-					"top": 16,
-					"left": 416,
-					"width": 48,
-					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/OK"
-					},
-					"action": "accept",
-					"rowCount": 4,
-					"picture": "/RESOURCES/Images/library/OSX OK.pict",
-					"switchWhenRollover": true,
-					"switchBackWhenReleased": true,
-					"useLastFrameAsDisabled": true,
-					"events": [
-						"onClick"
-					]
 				},
 				"Text16": {
 					"type": "text",
@@ -601,6 +460,33 @@
 						"onDataChange",
 						"onPrintingDetail"
 					]
+				},
+				"bOK": {
+					"type": "button",
+					"text": "OK",
+					"top": 13,
+					"left": 481,
+					"width": 116,
+					"height": 44,
+					"events": [
+						"onClick"
+					],
+					"action": "accept",
+					"defaultButton": true,
+					"focusable": false
+				},
+				"bCancel": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 13,
+					"left": 332,
+					"width": 120,
+					"height": 44,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel",
+					"focusable": false
 				}
 			}
 		}
@@ -616,18 +502,7 @@
 					"Linie15"
 				]
 			},
-			"Ebene 3": {
-				"objects": [
-					"bErster",
-					"bVorheriger",
-					"bNächster",
-					"bLetzter",
-					"Bild1",
-					"bLöschen",
-					"bAbbrechen",
-					"bOK"
-				]
-			},
+			"Ebene 3": {},
 			"Ebene 4": {},
 			"Ebene 5": {},
 			"Ebene 6": {},
@@ -635,5 +510,10 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
+	},
+	"geometryStamp": 20,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

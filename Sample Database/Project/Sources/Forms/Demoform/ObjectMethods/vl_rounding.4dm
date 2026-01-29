@@ -1,9 +1,9 @@
-C_LONGINT:C283($vl_area; $vl_rounding)
+var $vl_area; $vl_rounding : Integer
 
 If (Form event code:C388=On Clicked:K2:4)
 	
-	$vl_area:=OBJECT_GetLongint("calarea")
-	$vl_rounding:=OBJECT_GetLongint("vl_rounding")
+	$vl_area:=OBJECT Get value:C1743("calarea")
+	$vl_rounding:=OBJECT Get value:C1743("vl_rounding")
 	
 	hmCal_SET ROUNDING($vl_area; $vl_rounding)
 	

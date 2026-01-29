@@ -1,10 +1,10 @@
-C_DATE:C307($vd_date)
-C_LONGINT:C283($vl_area; $vl_miniarea)
+var $vd_date : Date
+var $vl_area; $vl_miniarea : Integer
 
 If (Form event code:C388=On Plug in Area:K2:16)
 	
-	$vl_area:=OBJECT_GetLongint("calarea")
-	$vl_miniarea:=OBJECT_GetLongint("calmini")
+	$vl_area:=OBJECT Get value:C1743("calarea")
+	$vl_miniarea:=OBJECT Get value:C1743("calmini")
 	
 	$vd_date:=hmCal_mini_Get Date($vl_miniarea)
 	

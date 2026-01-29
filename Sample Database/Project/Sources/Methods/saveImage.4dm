@@ -1,11 +1,10 @@
 //%attributes = {}
-C_LONGINT:C283($vl_area; $vl_format; $vl_index)
-C_TEXT:C284($vt_folder; $vt_resfolder)
-C_POINTER:C301($vp_tt_picturesize; $vp_tg_picturesize_width; $vp_tg_picturesize_height)
-C_PICTURE:C286($vb_picture)
+#DECLARE($vl_area : Integer; $vl_format : Integer)
 
-$vl_area:=$1
-$vl_format:=$2
+var $vl_index : Integer
+var $vt_folder; $vt_resfolder : Text
+var $vp_tt_picturesize; $vp_tg_picturesize_width; $vp_tg_picturesize_height : Pointer
+var $vb_picture : Picture
 
 $vp_tt_picturesize:=OBJECT_GetPointer("tt_picturesize")
 $vp_tg_picturesize_width:=OBJECT_GetPointer("tg_picturesize_width")

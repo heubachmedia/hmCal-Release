@@ -1,6 +1,6 @@
-C_LONGINT:C283($vl_area)
-C_POINTER:C301($vp_object)
-C_PICTURE:C286($vb_picture)
+var $vl_area : Integer
+var $vp_object : Pointer
+var $vb_picture : Picture
 
 If (Form event code:C388=On Clicked:K2:4)
 	

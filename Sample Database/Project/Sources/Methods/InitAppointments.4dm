@@ -1,10 +1,7 @@
-//%attributes = {}
-C_LONGINT:C283($i; $vl_area; $vl_error)
-C_DATE:C307($vd_date1; $vd_date2)
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vl_area : Integer; $vd_date1 : Date; $vd_date2 : Date)
 
-$vl_area:=$1
-$vd_date1:=$2
-$vd_date2:=$3
+var $i; $vl_error : Integer
 
 QUERY:C277([Appointments:8]; [Appointments:8]Date1:4<=$vd_date2; *)
 QUERY:C277([Appointments:8];  & ; [Appointments:8]Date2:6>=$vd_date1)
