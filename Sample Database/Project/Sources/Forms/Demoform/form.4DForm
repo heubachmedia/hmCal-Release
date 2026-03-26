@@ -1788,18 +1788,6 @@
 		}
 	],
 	"editor": {
-		"groups": {
-			"Gruppe5": [
-				"vl_dayview",
-				"vl_weekview",
-				"vl_monthview",
-				"vl_dayuserview",
-				"vl_weekuser",
-				"vl_resourcesview",
-				"vl_year_view",
-				"vl_userdayview"
-			]
-		},
 		"activeView": "Ebene 1",
 		"defaultView": "Ebene 1",
 		"views": {
@@ -1813,5 +1801,9 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }
