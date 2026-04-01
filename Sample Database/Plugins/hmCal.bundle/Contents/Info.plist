@@ -5,7 +5,7 @@
 	<key>BuildMachineOSBuild</key>
 	<string>25E246</string>
 	<key>CFBuildNumber</key>
-	<string>7168</string>
+	<string>7170</string>
 	<key>CFBuildVersion</key>
 	<string>21.0.0</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>21.0.0.7168</string>
+	<string>21.0.0.7170</string>
 	<key>CFBundleSignature</key>
 	<string>4D06</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,7 +27,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>21.0.0.7168</string>
+	<string>21.0.0.7170</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
