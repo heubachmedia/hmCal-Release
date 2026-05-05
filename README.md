@@ -1,6 +1,6 @@
-## hmCal v20
-hmCal v20 is build for 4D v20 available for Intel and Apple Silicon M1 processors (Universal)
-hmCal v20 has the **same** system requirements as 4D v20.
+## hmCal v21
+hmCal v21 is build for 4D v21 available for Intel and Apple Silicon processors (Universal)
+hmCal v21 has the **same** system requirements as 4D v21.
 
 [Developer Software License and Limited Warranty](Documentation/License.md)
 
