@@ -27,3 +27,33 @@ Main Features
 * Available for Intel and Apple Silicon M1 processors
 * Visualization of searches
 * Management system processes
+
+## All Sections
+
+- [Introduction](guides/category-pages/introduction.md)
+- [Appendix](guides/category-pages/appendix.md)
+- [Areas](guides/category-pages/areas.md)
+- [Calendar](guides/category-pages/calendar.md)
+- [Calendar Settings](guides/category-pages/calendar-settings.md)
+- [Working Hours](guides/category-pages/working-hours.md)
+- [Special days](guides/category-pages/special-days.md)
+- [Appointments](guides/category-pages/appointments.md)
+- [Recurrence Appointments](guides/category-pages/recurrence-appointments.md)
+- [User](guides/category-pages/user.md)
+- [Stylesheets](guides/category-pages/stylesheets.md)
+- [Columns](guides/category-pages/columns.md)
+- [Icons](guides/category-pages/icons.md)
+- [Relations](guides/category-pages/relations.md)
+- [Mini-Calendar](guides/category-pages/mini-calendar.md)
+- [Utilities](guides/category-pages/utilities.md)
+- [System processes](guides/category-pages/system-processes.md)
+- [Search](guides/category-pages/search.md)
+- [Obsolete commands](guides/category-pages/obsolete-commands.md)
+
+## Reference Pages
+
+- [Overview](guides/introduction/Overview.md)
+- [Release notes](guides/introduction/Release-notes.md)
+- [Constants](guides/appendix/Constants.md)
+- [Error-codes](guides/appendix/Error-codes.md)
+
